@@ -1,0 +1,114 @@
+
+.postcarousel-layout2 article {
+    overflow: hidden;
+}
+.postcarousel-layout2 .cshero-carousel-image {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+.postcarousel-layout2 .cshero-carousel-image img {}
+.postcarousel-layout2 .overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+          o-transform: scale(0);
+            transform: scale(0);
+}
+
+.postcarousel-layout2 .overlay-content {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: translate(0px,-50%);
+       -moz-transform: translate(0px,-50%);
+        -ms-transform: translate(0px,-50%);
+         -o-transform: translate(0px,-50%);
+            transform: translate(0px,-50%); 
+}
+
+.postcarousel-layout2 .cshero-carousel-image .cshero-carousel-post-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.postcarousel-layout2 article.text-right .cshero-carousel-image .cshero-carousel-post-date{
+    left: auto;
+    right: 0;
+}
+.postcarousel-layout2 article.text-center .cshero-carousel-image .cshero-carousel-post-date{
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+       -moz-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+         -o-transform: translate(-50%,0);
+            transform: translate(-50%,0); 
+}
+.postcarousel-layout2 .cshero-carousel-image .cshero-carousel-post-date span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.postcarousel-layout2 .overlay-content .link-wrap{}
+.postcarousel-layout2 .overlay-content .link-wrap a.icon-link.icon-button,
+.postcarousel-layout2 .overlay-content .link-wrap a.icon-link.icon-button-black{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+.postcarousel-layout2 .link-wrap a.icon-link.icon-button{   background-color: #fff;}
+.postcarousel-layout2 .link-wrap a.icon-link.icon-button-black{   background-color: #000;}
+
+/*Content style */
+.postcarousel-layout2 .cshero-carousel-body .cshero-carousel-title{ margin:0;}
+.postcarousel-layout2 .cshero-carousel-body .cshero-carousel-post-category{}
+.postcarousel-layout2 .cshero-carousel-body .cshero-carousel-post-description{
+    margin-top: 20px;
+}
+
+/* Hover State*/
+.postcarousel-layout2 article:hover .overlay {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+          o-transform: scale(1);
+            transform: scale(1);
+}

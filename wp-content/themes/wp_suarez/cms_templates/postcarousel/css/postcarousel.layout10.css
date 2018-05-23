@@ -1,0 +1,51 @@
+
+.postcarousel-layout10 .cshero-header{ margin-bottom: 60px;}
+.postcarousel-layout10 .cshero-header .cshero-title{ margin-bottom: 30px;}
+.postcarousel-layout10 .cshero-header .cshero-subtitle { margin-bottom: 40px;}
+
+/*item image style*/
+.postcarousel-layout10 .cshero-carousel-image {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.postcarousel-layout10 .cshero-carousel-image img {}
+/*item body style*/
+.postcarousel-layout10 .cshero-carousel-image + div{margin-top: 3px;}
+/*item meta style*/
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-meta {}
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-meta span{position: relative;}
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-meta span:after{content: "|"; display: inline-block;margin: 0 10px;font-size: 12px; line-height: normal;}
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-meta span:last-child:after{display: none;content: 0;margin: 0;}
+/*item title style */
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-title  {margin:10px 0 25px 0;}
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-title a {display: block;}
+/*item description */
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-meta + .cshero-carousel-post-description{ margin-top: 20px;}
+/*item read more*/
+.postcarousel-layout10 .cshero-carousel-body .cshero-carousel-footer{margin-top: 20px;}
+
+/* Overlay style */
+.postcarousel-layout10 .overlay {
+    position: absolute;
+    top: auto;
+    bottom: 65px;
+    right: 80px;
+    left: auto;
+    display: block;
+    z-index: 1;
+    width: 450px;
+    min-height: 250px;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    background: transparent;
+}
+/* Hover State*/
+.postcarousel-layout10 article:hover .overlay {}

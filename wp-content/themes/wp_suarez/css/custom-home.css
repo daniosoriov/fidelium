@@ -1,0 +1,1273 @@
+/* --------------- 
+   Home One Page 2
+----------------- */
+@media (min-width: 993px){
+	.left-space-large{ padding-left: 100px !important;}
+	.right-space-large{ padding-right: 100px !important;}
+}
+/* --------------- 
+   Home Portfolio 2
+----------------- */
+@media (min-width: 993px){
+	body.portfolio-2 .header-left div.logo{ margin:-20px -40px 0; padding: 0; width: auto;}
+}
+/* --------------- 
+   Home Portfolio 5
+----------------- */
+@media (min-width: 993px){
+	body.portfolio-5 #cshero-header ul.cshero-dropdown > li > a > .menu-title:after, 
+	body.portfolio-5 #cshero-header .menu-pages .menu > ul > li > a > .menu-title:after { display:inline-block; content: ".";}
+
+	body.portfolio-5 #cshero-header ul.cshero-dropdown > li > a:hover > .menu-title, 
+	body.portfolio-5 #cshero-header .menu-pages .menu > ul > li > a:hover > .menu-title,
+	body.portfolio-5 #cshero-header ul.cshero-dropdown > li.current-menu-ancestor > a > .menu-title, 
+	body.portfolio-5 #cshero-header .menu-pages .menu > ul > li.current-menu-ancestor > a > .menu-title{ border-bottom: 2px solid #eee;}
+
+	body.portfolio-5 .cshero-portfolio-view-all{ margin-top: 80px;}
+
+	body.portfolio-5 .postcarousel-layout13 .link-wrap a{ text-transform: uppercase; border-bottom: 2px solid #eee;}
+	body.portfolio-5 .postcarousel-layout13 .link-wrap a:hover,
+	body.portfolio-5 .postcarousel-layout13 .link-wrap a:active{ border-bottom-color: #444;}
+}
+.csbody a.black-bg,
+.csbody span.black-bg,
+.csbody input.btn.black-bg {
+	background: #111111;
+	border-color: #111;
+}
+/* --------------- 
+   Home Magazine 1
+----------------- */
+@media (min-width: 993px){
+	body.magazine-1 ul.cshero-dropdown > li > a:after { content: "/"; font-size: 200%; font-weight: 100; color: #eee;}
+}
+body.magazine-1 .release-date,
+body.magazine-1 .cshero-carousel-date{ font-size: 11px; word-spacing: 5px;}
+/* --------------- 
+   Home Interior 1
+----------------- */
+body.interior-1 h1, body.interior-1 h2, body.interior-1 h3, body.interior-1 h4, body.interior-1 h5, body.interior-1 h6, body.interior-1 .cs_custom_heading{ font-weight: 300;}
+body.interior-1 .postcarousel-layout8 div.cshero-carousel-title,
+body.interior-1 .postcarousel-layout7 .cshero-carousel-title,
+body.interior-1 .cshero-shopcarousel-layout2 .cshero-title.product-title,
+body.interior-1 .cshero-shopcarousel-layout2 .product-price{ font-size: 20px; font-weight: 300; text-transform: lowercase;}
+/* --------------- 
+   Home Interior 2
+----------------- */
+.interior2 .cshero-shopcarousel-layout3 .cshero-carousel-item{ margin-top: 60px;}
+.interior2 .cshero-shopcarousel-layout3 .cshero-title{ margin: 35px 0 10px 0; font-weight: 300;}
+.interior2 .cshero-shopcarousel-layout3 .product-price .amount{ font-size: 25px; font-weight: 300;}
+.interior2 .postcarousel-default .cshero-carousel-title{ font-size:16px; font-weight: 300;}
+.interior2 .postcarousel-default .overlay{border:1px solid #eee;}
+/* --------------- 
+   Tech 01
+----------------- */
+.tech1 .cshero-dropdown > li > a > span{margin: 0 21px;}
+.tech1 .cshero-dropdown > li > a:hover > span,
+.tech1 .cshero-dropdown > li > a:focus > span,
+.tech1 .cshero-dropdown > li > a:active > span,
+.tech1 .cshero-dropdown > li.current-menu-ancestor > a > span{
+	
+}
+.tech1 .cshero-shopcarousel-layout3 .product-button > span + span{ margin-top: 5px;}
+.tech1 .cshero-shopcarousel-layout3 .product-button a{ background-color: #fff !important; color: #333 !important; border-color: #fff !important;}
+.tech1 .cshero-shopcarousel-layout3 .product-button a:hover{background-color: #333333 !important; color: #fff !important; border-color: #333 !important;}
+.tech1 .cshero-shopcarousel-layout3 .product-button a:hover span{ color: #fff !important;}
+
+.tech1 .postcarousel-default article .cshero-carousel-title a{font-weight: 300;}
+.tech1 .postcarousel-default article:hover .cshero-carousel-title a{ text-decoration: underline; }
+/* --------------- 
+   Tech 02
+----------------- */
+.tech2 .cshero-dropdown > li > a > span{
+	position: relative;
+	display: block;
+}
+.tech2 .cshero-dropdown > li > a:hover > span:after,
+.tech2 .cshero-dropdown > li > a:focus > span:after,
+.tech2 .cshero-dropdown > li > a:active > span:after,
+.tech2 .cshero-dropdown > li.current-menu-ancestor > a:active > span:after{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	background-color: #fff;
+	width: 100%;
+	height: 4px;
+	display: block;
+}
+.tech2 #sticky-nav-wrap{ margin-right: 30px;}
+/* Home Music */
+@media (min-width: 993px){
+	.music #cshero-header, .music #header-sticky { padding: 0 75px 0 85px;}
+	.music ul.cshero-dropdown > li > a > .menu-title{padding: 9px 12px;border: 1px solid transparent;}
+	.music ul.cshero-dropdown > li.current-menu-ancestor > a > .menu-title,
+	.music ul.cshero-dropdown > li > a:hover > .menu-title,
+	.music ul.cshero-dropdown > li > a:focus > .menu-title{ border-color: #fff; }
+}
+.music .team-layout1 .cshero-team-title {word-spacing: 999px; font-weight: 200;}
+.music .postcarousel-default article .cshero-carousel-title{ font-size: 24px; line-height: 28px;}
+.music .postcarousel-default article:hover .cshero-carousel-title a{ text-decoration: underline; }
+.music #event_countdown li span:first-child{ color: #222;}
+/* Medical */
+.cshero-medical ul.cshero-dropdown > li > a{ font-size: 11px !important;}
+.cshero-medical .team-layout7 .overlay .overlay-content{ padding: 25px;bottom: 0;-webkit-transform: translate(0,0);transform: translate(0,0);left: 0;top: auto;}
+
+.cshero-medical .wpcf7-form .reservation-day, .cshero-medical .wpcf7-form .reservation-month,.cshero-medical .wpcf7-form .reservation-date,.cshero-medical .wpcf7-form .choose-people{ background-color: #bbbbbb;}
+
+/* Hotel */
+.home-hotel .cshero-dropdown > li > a > .menu-title{border-bottom: 1px solid transparent; padding-bottom: 10px;}
+.home-hotel ul.cshero-dropdown > li.current-menu-ancestor > a > .menu-title,
+.home-hotel ul.cshero-dropdown > li > a:hover > .menu-title,
+.home-hotel ul.cshero-dropdown > li > a:focus > .menu-title{ border-color: #333;}
+
+/* Home Tourism */
+@media (min-width: 993px){
+	.home-tourism .cshero-dropdown > li > a > .menu-title{ padding: 0 15px;}
+}
+.home-tourism .wpcf7-form input[type='text']{ background-color: #f5f5f5; color: #888; text-transform: uppercase; font-size: 10px; border: 0;}
+/* Renovate */
+.renovate-footer-wrap .cs-heading-tag {
+	text-transform: none;
+}
+
+.renovate-footer-wrap .wpcf7-form input[type="text"],
+.renovate-footer-wrap .wpcf7-form input[type="email"] {
+	border-color: #f6f6f6;
+}
+
+.renovate-footer-wrap .wpcf7-form input[type="submit"] {
+	width: 120px;
+	padding-left: 0;
+	padding-right: 0;
+	display: inline-block;
+	margin: 0 auto;
+	border: 1px solid #f6f6f6;
+	background: #fff;
+	color: #333;
+}
+
+/* Coming soon */
+.coming-soon-wrap .header-wrapper {
+	display: none;
+}
+
+.coming-soon-wrap .wpcf7-form input[type="text"],
+.coming-soon-wrap .wpcf7-form input[type="email"] {
+	background: #fff;
+}
+
+/* maintenance1-wrap */
+.maintenance1-wrap #cshero-header {
+	background: 0 none;
+}
+
+/* Home Art */
+
+/* Home Blog */
+.home-blog-wrap .cs-quote-style-1 {
+	width: 100%;
+	border: none;
+}
+.home-blog-wrap .cshero-header-fixed-content-widget{border-top:0; text-align: center; padding-bottom: 70px;}
+.home-blog-wrap .cshero-header-fixed-content-widget ul.cs-social{ text-align: center;}
+.home-blog-wrap .cshero-header-fixed-content-widget a{ color: #fff; font-size: 20px;}
+
+
+.cs-masonry-layout-2 article {
+	padding: 0 15px;
+	width: 33.3333%;
+}
+
+.cs-masonry-layout-2 article .cs-blog {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+
+.cs-masonry-layout-2 article .cs-blog-title,
+.cs-masonry-layout-2 article .cs-blog-media {
+	margin-bottom: 0 !important;
+}
+
+.cs-masonry-layout-2 article .cs-blog-title-inner {
+	font-size: 15px;
+	font-weight: 400;
+	background: #eeeeee;
+	padding: 25px;
+	margin: 0;
+}
+
+.cs-masonry-layout-2 article.format-video .shortcode-video iframe {
+	display: block;
+	overflow: hidden;
+}
+
+.cs-masonry-layout-2 article.format-quote .cs-blog {
+	padding: 70px 50px;
+	background: #eeeeee;
+}
+
+.cs-masonry-layout-2 article.format-quote .cs-blog-content .cs-content-text {
+	padding: 0;
+	font-size: 19px;
+	color: #444;
+}
+
+.cs-masonry-layout-2 article.format-quote .cs-blog-content .cs-content-text .author {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #444;
+	display: block;
+	margin-top: 40px;
+}
+
+.cs-masonry-layout-2 article.format-quote .cs-blog-content .cs-content-text .author:before {
+	content: '-';
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.cs-masonry-layout-2 article .cs-blog-nothumb {
+	background: #eee;
+	padding: 30px 25px;
+}
+
+.cs-masonry-layout-2 article .cs-blog-nothumb .cs-blog-title-inner {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+	.cs-masonry-layout-2 article {
+		width: 100%;
+	}
+
+	.home-blog-wrap .header-left,
+	.home-blog-wrap .cshero-header-fixed-content-widget {
+		position: static;
+	}
+}
+
+/* Home Lawyer */
+.custom-heading-dark {
+	padding: 13px 10px;
+	background: #111;
+}
+
+.lawyer-testimonial-custom.testimonial-layout1 .cshero-testimonial-text {
+	position: relative;
+	z-index: 0;
+}
+
+.lawyer-testimonial-custom.testimonial-layout1 .cshero-testimonial-text i {
+	position: absolute;
+	right: 3px;
+    top: -4px;
+    z-index: -1;
+}
+
+.wpcf7-form .wpcf7-form-control-wrap.lawyer-cat {
+	height: 45px;
+	overflow: hidden;
+	display: block;
+	background: url(../images/lawyer/select-button.jpg) no-repeat right center;
+}
+
+.wpcf7-form .select-wrap {
+    line-height: 1.4;
+    text-transform: uppercase;
+	border-radius: 0;
+	height: 45px;
+	-webkit-appearance: none;
+	width: 110% !important; 
+	background: transparent;
+}
+
+.wpcf7-form .select-wrap:hover,
+.wpcf7-form .select-wrap:focus {
+	border-color: #eee !important;
+	cursor: pointer;
+}
+
+.home-lawyer-wrap .cshero-nav a {
+	font-size: 31px;
+	color: #aaa;
+}
+
+.home-lawyer-wrap .cshero-control.bullet-o .bx-pager-inner li .bx-pager-link.active, 
+.home-lawyer-wrap .cshero-control.bullet-o .bx-pager-inner li .bx-pager-link:hover, 
+.home-lawyer-wrap .cshero-control.bullet-o .bx-pager-inner li .bx-pager-link:focus{ background-color:#333;border-color: #333;}
+.home-lawyer-wrap .cshero-counter-wrap {
+	-webkit-transition: all 300ms linear 0s;
+	-o-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+}
+
+.lawyer-footer-wrap .widget_search input[type="text"],
+.lawyer-footer-wrap .widget_search input[type="submit"] {
+	height: 48px;
+	line-height: 48px;
+	padding: 0;
+}
+
+.lawyer-footer-wrap .widget_search input[type="text"] {
+	background: #444444;
+	border-color: #444;
+	color: #999;
+	padding: 0 10px;
+}
+
+.lawyer-footer-wrap .searchform {
+	margin-bottom: 0;
+}
+
+.lawyer-footer-wrap .searchform:before {
+	color: #fff;
+	top: 12px;
+}
+
+.lawyer-footer-wrap .wpcf7-form input[type="text"],
+.lawyer-footer-wrap .wpcf7-form input[type="email"] {
+	background: #444;
+	border-color: #444;
+	color: #999;
+}
+
+.lawyer-footer-wrap .wpcf7-form input[type="submit"] {
+	width: auto;
+	background: #fff;
+	color: #444;
+}
+
+/* Custom for Home 45 Renovate*/
+.custom-renovate-wrap1 .getTouch li {
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.custom-renovate-wrap1 .getTouch li a {
+    color: #fff;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .heading,
+.custom-no-image .widget_cs_recent_post_v2 .cs-media,
+.renovate-menu-wrap .cshero-hidden-sidebar,
+.renovate-menu-wrap .cshero-header-content-widget2,
+.home-architecture-wrap .cshero-hidden-sidebar  {
+    display: none;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-popular li {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-details h4 {
+    margin-bottom: 0;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-details .date {
+    font-size: 11px;
+}
+
+.custom-renovate-wrap1 .cshero-testimonial-item .cshero-testimonial-title {
+    margin: 25px 0 30px;
+}
+
+#cshero-header .renovate-menu-wrap .main-menu-content > ul.main-menu > li.menu-item > a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Custom for Home 40 Architecture */
+.home-architecture-wrap #cshero-header {
+    background: 0 none;
+}
+
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet {
+    background: url(../images/bullet-slider.png) no-repeat center center;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet:hover,
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet.selected {
+    background: url(../images/bullet-active-slider.png) no-repeat center center;
+}
+
+.home-architecture-wrap .cs-header-custom .searchform input[type="text"] {
+    background: #fff;
+    border-color: none;
+}
+
+.home-architecture-wrap .architecture-slider2-wrap .white-atl.button:hover {
+    background: 0 none !important;
+    border-color: #fff !important;
+}
+
+.home-architecture-wrap .architecture-slider2-wrap .tp-caption:hover {
+    background: 0 none !important
+}
+
+.newletters-form-wrap input {
+    background: #fff;
+}
+
+.newletters-form-wrap input.btn-block[type="submit"],
+.hosting-newletters-wrap input.btn-block[type="submit"] {
+    padding: 13px 20px;
+    width: 125px;
+}
+
+.hosting-newletters-wrap input.btn-block[type="submit"] {
+    color: #333;
+    border-color: #999999;
+    background: 0 none;
+}
+
+/* Hosting Home */
+.home-hosting-wrap .header-wrapper .cs-logo {
+    position: relative;
+}
+
+.home-hosting-wrap .header-wrapper .cs-logo:before {
+    width: 100000px;
+    height: 100%;
+    background: #111;
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.home-hosting-wrap #cshero-header .logo > a {
+	position: relative;
+}
+
+.home-hosting-wrap .widget-login {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.home-hosting-wrap .widget-login li {
+	display: inline-block;
+	position: relative;
+}
+
+.home-hosting-wrap .widget-login li a {
+	display: block;
+	line-height: 118px;
+	text-transform: uppercase;
+	color: #999999;
+}
+
+.home-hosting-wrap .widget-login li:after {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	margin-left: 20px;
+	padding: 0;
+}
+
+.home-hosting-wrap .widget-login li:last-child {
+	margin-left: 40px;
+}
+
+.home-hosting-wrap .tp-caption .hosting-slider-wrap {
+	position: relative;
+	padding: 69px 0;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.home-hosting-wrap .tp-caption .hosting-slider-wrap h2 {
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.home-hosting-wrap .tp-caption .hosting-slider-wrap span {
+	display: block;
+	margin-bottom: 20px;
+}
+
+/* Marketing */
+.home-marketing-wrap #footer-bottom {
+	background: #eee;
+	color: #999;
+}
+
+.home-marketing-wrap #footer-bottom .container {
+	padding: 25px 0;
+}
+
+/* Bar */
+.csbody span.bg-overlay {
+	background: rgba(0,0,0, 0.8);
+}
+
+.home-bar-wrap .tp-leftarrow.square-old .tp-arr-allwrapper:before {
+	content: '\f177';
+	color: #fff;
+	font-size: 20px;
+}
+
+.home-bar-wrap .tp-rightarrow.square-old .tp-arr-allwrapper:before {
+	content: '\f178';
+	color: #fff;
+	font-size: 20px;
+}
+
+.home-bar-wrap .tp-leftarrow.tparrows.square-old,
+.home-bar-wrap .tp-rightarrow.tparrows.square-old {
+	background: #272828;
+}
+
+.home-bar-wrap .tp-leftarrow.tparrows.square-old:hover, 
+.home-bar-wrap .tp-rightarrow.tparrows.square-old:hover {
+	background: #72706d;
+}
+
+.home-bar-wrap .postcarousel-layout3 .cshero-carousel-title {
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+.home-bar-wrap .postcarousel-layout3 .cs-morelink {
+	margin: 50px 0;
+}
+
+.home-bar-wrap .postcarousel-layout3 .cs-morelink a {
+	background: 0 none;
+	border: none;
+	font-size: 18px;
+	color: #444;
+	font-weight: 400;
+}
+
+.wpcf7-form .reservation-day,
+.wpcf7-form .reservation-month,
+.wpcf7-form .reservation-date,
+.wpcf7-form .choose-people {
+	background: #333333;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.wpcf7-form .reservation-day:after,
+.wpcf7-form .reservation-month:after,
+.wpcf7-form .reservation-date:after,
+.wpcf7-form .choose-people:after {
+	content: '\f107';
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.wpcf7-form .reservation-day select.wpcf7-select,
+.wpcf7-form .reservation-month select.wpcf7-select,
+.wpcf7-form .reservation-date select.wpcf7-select,
+.wpcf7-form .choose-people select.wpcf7-select {
+	border-color: #333;
+	background: 0 none;
+	width: 110%;
+	border-radius: 0;
+	height: 46px;
+	line-height: 46px;
+	color: #fff;
+	cursor: pointer;
+	margin: 0;
+}
+.wpcf7-form .reservation-day select.wpcf7-select option,
+.wpcf7-form .reservation-month select.wpcf7-select option,
+.wpcf7-form .reservation-date select.wpcf7-select option,
+.wpcf7-form .choose-people select.wpcf7-select option { background-color: #333;}
+
+.bar-footer-wrap .wpcf7-form input[type="text"],
+.bar-footer-wrap .wpcf7-form input[type="email"] { 
+	border-color: #555;
+}
+
+.bar-footer-wrap .wpcf7-form input[type="submit"] {
+	background: #707070;
+}
+
+.home-bar-wrap .cs-eventCount-content #event_countdown span:nth-child(1) {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.home-bar-wrap .cs-eventCount-content #event_countdown span:nth-child(2) {
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+.home-bar-wrap .cs-eventCount-contentWrap .cs-eventCount-title {
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.home-bar-wrap .cs-eventCount-content #event_countdown {
+	margin-top: 60px;
+}
+
+/* Church */
+.home-church-wrap h4.cs-heading-tag {
+	text-transform: none;
+}
+
+.home-church-wrap .cshero-post-carousel-item-wrap .cshero-carousel-date {
+	font-weight: 600;
+}
+
+.home-church-wrap .cshero-post-carousel-item-wrap .cshero-carousel-title {
+	margin: 15px 0 20px !important;
+	line-height: 1.4;
+}
+
+.home-church-wrap .bx-pager-inner li .bx-pager-link {
+	background: #888;
+}
+
+.home-church-wrap .bx-pager-inner li .bx-pager-link:hover, 
+.home-church-wrap .bx-pager-inner li .bx-pager-link.active {
+	background: #fff;
+}
+
+.home-church-wrap .cshero-team-carousel-item .cshero-team-category i {
+	display: none;
+}
+
+.home-church-wrap .new-update-wrap .cshero-carousel-image {
+	margin-bottom: 25px;
+}
+.home-church-wrap .testimonial-layout1 .cshero-testimonial-text{ font-style: italic;}
+.home-church-wrap .postcarousel-default .cshero-carousel-body .cshero-carousel-meta span{ font-size: 13px;}
+
+/* Bakery */
+.bakery .header-v2 .logo-wrapper{padding: 10px 0 40px 0; border-bottom: 1px solid #eee;}
+
+.csbody.bakery #cshero-header ul.cshero-dropdown > li > a, 
+.csbody.bakery #cshero-header .menu-pages .menu > ul > li > a {
+	padding: 0 !important;
+}
+
+.csbody.bakery #cshero-header ul.cshero-dropdown > li > a:before, 
+.csbody.bakery #cshero-header .menu-pages .menu > ul > li > a:before {
+	content: '';
+	border-left: 1px solid #eee;
+	padding-left: 35px;
+	margin-left: 35px;
+}
+
+.csbody.bakery #cshero-header ul.cshero-dropdown > li:last-child a:after, 
+.csbody.bakery #cshero-header .menu-pages .menu > ul > li:last-child a:after {
+	content: '';
+	border-right: 1px solid #eee;
+	padding-right: 35px;
+	margin-right: 35px;
+}
+
+.csbody.bakery #cshero-header ul.cshero-dropdown > li:last-child li a:after {
+	border-right: none;
+}
+.csbody.bakery .cshero-shopcarousel-layout3 .cs-carousel-item-full > div { padding-top: 10px;}
+.csbody.bakery .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 600;
+}
+.csbody.bakery .cshero-shopcarousel-layout3 .product-price .price > * { display: inline-block;}
+
+/* Beauty */
+.cshero-beauty .testimonial-custom.cover_boxes ul li .box .thumb,
+.cshero-beauty .testimonial-custom.cover_boxes ul li .box .thumb img {
+	display: block;
+	position: relative;
+}
+
+.cshero-beauty .testimonial-custom.cover_boxes ul li .box .thumb img:hover:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.cshero-beauty .testimonial-custom.cover_boxes .heading-item-wrap {
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.cshero-beauty .testimonial-custom.cover_boxes ul li .box .cover_box_title {
+	text-transform: none;
+	margin-bottom: 0px !important;
+	float: left;
+	padding-right: 15px;
+}
+
+.cshero-beauty .cshero-post-carousel .cshero-carousel-title a {
+	text-transform: none;
+	font-size: 16px;
+}
+
+.cshero-beauty .cshero-post-carousel .cshero-carousel-title,
+.cshero-beauty .postcarousel-layout4 .cshero-carousel-body .cshero-carousel-post-description {
+	margin-top: 15px !important;
+}
+
+.cshero-beauty .menu-home-beauty-bottom-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.cshero-beauty .menu-home-beauty-bottom-container ul li {
+	display: inline-block;
+}
+.cshero-beauty .menu-home-beauty-bottom-container ul li a {
+	padding: 0 20px;
+	font-size: 12px;
+}
+
+/* Landing game */
+.home-landing-game .fancybox-layout6 .cshero-fancybox-image img {
+	border-radius: 0;
+}
+
+.home-landing-game .vc_separator-has-text h5 {
+	font-size: 16px;
+}
+
+.home-landing-game .exp-videobg-control-btn {
+	background: #7fd7e8;
+	border-color: #7fd7e8;
+}
+
+.home-landing-game .exp-videobg-control-btn i {
+	font-size: 20px;
+}
+
+.home-landing-game ul.list-video-wrap {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: block;
+	list-style: none;
+	overflow: hidden;
+}
+
+.home-landing-game ul.list-video-wrap li {
+	float: left;
+	display: block;
+	background: #111111;
+	padding: 28px 20px 29px 70px;
+	width: 100%;
+	border-bottom: 1px solid #222;
+}
+
+.home-landing-game ul.list-video-wrap li.active,
+.home-landing-game ul.list-video-wrap li:hover {
+	background: #222;
+}
+
+.home-landing-game ul.list-video-wrap li h6 {
+	line-height: 1;
+	margin: 0;
+}
+
+.home-landing-game ul.list-video-wrap li .video-name {
+	color: #fff;
+	font-size: 13px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.home-landing-game ul.list-video-wrap li .video-name:after {
+	content: '\f067';
+	position: absolute;
+	top: 0;
+	left: -30px;
+	font-family: FontAwesome; 
+}
+
+.home-landing-game ul.list-video-wrap li .video-action {
+	font-size: 11px;
+	color: #777777;
+}
+
+.home-landing-game .parallax-heading-custom .fancybox-layout7 .cshero-fancybox-title-image.cshero-icon-right {
+	padding: 0;
+}
+
+.home-landing-game .parallax-heading-custom .fancybox-layout7 .cshero-fancybox-icon:before {
+	display: none;
+}
+
+.home-landing-game .parallax-heading-custom .fancybox-layout3 .cshero-fancybox-title-wrap,
+.home-landing-game .parallax-heading-custom .fancybox-layout7 .cshero-fancybox-title-wrap {
+	line-height: 130px;
+}
+
+.home-landing-game .cshero-post-carousel .cshero-carousel-title {
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.home-landing-game .postcarousel-default .cshero-carousel-body .cshero-carousel-meta .cshero-carousel-date {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.home-landing-game .postcarousel-default .cshero-carousel-body .cshero-carousel-meta .cshero-carousel-date:before {
+	content: '\f017';
+	font-family: FontAwesome;
+	font-size: 14px;
+	padding-right: 12px;
+}
+
+.home-landing-game .footer-wrap .wpcf7-form {
+	width: 360px;
+	margin: 0 auto;
+}
+
+.home-landing-game .footer-wrap {
+	font-size: 14px;
+}
+
+.home-landing-game .footer-wrap .wpcf7-form input {
+	text-align: center;
+}
+
+.home-landing-game .footer-wrap .wpcf7-form input[type="submit"] {
+	width: auto;
+	margin: 0 auto;
+    display: block;
+}
+
+/* Home Event */
+
+.home-event #wrapper .container:first-child,
+.home-event #cshero-header .container{ background-color: #fff;}
+
+
+/* Header V4 Menu Style */
+	/* Style 1*/
+	.menu-fixed-siderbar-style1 .header-v4 .cshero-dropdown > li > a{ position: relative; padding-bottom: 40px !important;}
+	.menu-fixed-siderbar-style1 .header-v4 .cshero-dropdown > li > a:after{
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		width: 20px;
+		height: 2px;
+		display: block;
+		content: "";
+		background-color: #bbbbbb;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: translate(-50%,0);
+		-moz-transform: translate(-50%,0);
+		-ms-transform: translate(-50%,0);
+		-o-transform: translate(-50%,0);
+		transform: translate(-50%,0);
+		-webkit-transition: all 0.3s linear 0s;
+		-moz-transition: all 0.3s linear 0s;
+		-ms-transition: all 0.3s linear 0s;
+		-o-transition: all 0.3s linear 0s;
+		transition: all 0.3s linear 0s;
+	}
+	.menu-fixed-siderbar-style1 .header-v4 .cshero-dropdown > li > a:hover:after,
+	.menu-fixed-siderbar-style1 .header-v4 .cshero-dropdown > li > a:active:after,
+	.menu-fixed-siderbar-style1 .header-v4 .cshero-dropdown > li > a:focus:after{
+		visibility: visible;
+		opacity: 1;
+	}
+
+/* Custom for Home 45 Renovate*/
+.custom-renovate-wrap1 .getTouch li {
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.custom-renovate-wrap1 .getTouch li a {
+    color: #fff;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .heading,
+.custom-no-image .widget_cs_recent_post_v2 .cs-media,
+.renovate-menu-wrap .cshero-hidden-sidebar,
+.renovate-menu-wrap .cshero-header-content-widget2,
+.home-architecture-wrap .cshero-hidden-sidebar  {
+    display: none;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-popular li {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-details h4 {
+    margin-bottom: 0;
+}
+
+.custom-no-image .widget_cs_recent_post_v2 .cs-details .date {
+    font-size: 11px;
+}
+
+.custom-renovate-wrap1 .cshero-testimonial-item .cshero-testimonial-title {
+    margin: 25px 0 30px;
+}
+
+#cshero-header .renovate-menu-wrap .main-menu-content > ul.main-menu > li.menu-item > a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Custom for Home 40 Architecture */
+.home-architecture-wrap #cshero-header {
+    background: 0 none;
+}
+
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet {
+    background: url(../images/bullet-slider.png) no-repeat center center;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet:hover,
+.architecture-slider1-wrap .tp-bullets.simplebullets.round .bullet.selected {
+    background: url(../images/bullet-active-slider.png) no-repeat center center;
+}
+
+.home-architecture-wrap .cs-header-custom .searchform input[type="text"] {
+    background: #fff;
+    border-color: none;
+}
+
+.home-architecture-wrap .architecture-slider2-wrap .white-atl.button:hover {
+    background: 0 none !important;
+    border-color: #fff !important;
+}
+
+.home-architecture-wrap .architecture-slider2-wrap .tp-caption:hover {
+    background: 0 none !important
+}
+
+.newletters-form-wrap input {
+    background: #fff;
+}
+
+.newletters-form-wrap input.btn-block[type="submit"],
+.hosting-newletters-wrap input.btn-block[type="submit"] {
+    padding: 13px 20px;
+    width: 125px;
+}
+
+.hosting-newletters-wrap input.btn-block[type="submit"] {
+    color: #333;
+    border-color: #999999;
+    background: 0 none;
+}
+
+/* Education 2 */
+.csbody.education1 .tp-caption a.default.white,
+.csbody.education2 .tp-caption a.default.white {
+	color: #fff;
+}
+
+.csbody.education2 ul.widget-login > li > a{ text-transform: inherit;}
+
+/* Education 1 */
+.csbody.education1 #cshero-header ul.cshero-dropdown > li > a, 
+.csbody.education1 #cshero-header .menu-pages .menu > ul > li > a {
+	padding: 0px 20px;
+}
+
+.csbody.education1 #cshero-header ul.cshero-dropdown > li:first-child > a {
+	padding-left: 0;
+}
+
+.csbody.education1 #cshero-header ul.cshero-dropdown > li:last-child > a {
+	padding-right: 0;
+}
+
+.csbody.education1 .cta-custom .wpb_call_text {
+	letter-spacing: 3px;
+}
+
+.csbody.education1 .testimonial-layout1 .cshero-testimonial-text {
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+.csbody.education1 .cs_custom_heading .cs-heading-tag {
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-top: 5px !important;
+}
+.csbody.education1 .wpcf7-form input[type="text"]{ text-indent: 10px; font-size: 12px;}
+/* Kids */
+.csbody.kids #cshero-header ul.cshero-dropdown > li > a, 
+.csbody.kids #cshero-header .menu-pages .menu > ul > li > a {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.csbody.kids .cs-categories-woo-wrap .cs-categories-woo-title {
+	font-size: 30px;
+	line-height: 1.3;
+} 
+
+.csbody.kids .cs_custom_heading .cs-heading-tag {
+	letter-spacing: 3px;
+}
+
+.csbody.kids .wpcf7-form-control.wpcf7-submit {
+	width: 100%;
+}
+
+.csbody.clothing-shop1 .woocommerce .cshero-carousel-item .product-content .product-button a,
+.csbody.clothing-shop2 .woocommerce .cshero-carousel-item .product-content .product-button a,
+.csbody.kids .woocommerce .cshero-carousel-item .product-content .product-button a,
+.csbody.shoes .woocommerce .cshero-carousel-item .product-content .product-button a,
+.csbody.flower .woocommerce .cshero-carousel-item .product-content .product-button a,
+.csbody.bakery .woocommerce .cshero-carousel-item .product-content .product-button a {
+	background: #fff;
+	color: #333;
+	border-color: #fff;
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	line-height: 40px;
+}
+
+.csbody.kids .woocommerce .cshero-carousel-item .product-content .product-button a:hover,
+.csbody.shoes .woocommerce .cshero-carousel-item .product-content .product-button a:hover,
+.csbody.clothing-shop1 .woocommerce .cshero-carousel-item .product-content .product-button a:hover,
+.csbody.clothing-shop2 .woocommerce .cshero-carousel-item .product-content .product-button a:hover,
+.csbody.flower .woocommerce .cshero-carousel-item .product-content .product-button a:hover,
+.csbody.bakery .woocommerce .cshero-carousel-item .product-content .product-button a:hover {
+	color: #fff !important;
+	background: #333;
+	border-color: #333;
+}
+
+.csbody.kids .woocommerce .cshero-carousel-item .product-content .product-button a:hover span,
+.csbody.shoes .woocommerce .cshero-carousel-item .product-content .product-button a:hover span,
+.csbody.clothing-shop1 .woocommerce .cshero-carousel-item .product-content .product-button a:hover span,
+.csbody.clothing-shop2 .woocommerce .cshero-carousel-item .product-content .product-button a:hover span,
+.csbody.flower .woocommerce .cshero-carousel-item .product-content .product-button a:hover span,
+.csbody.bakery .woocommerce .cshero-carousel-item .product-content .product-button a:hover span {
+	color: #fff !important;
+}
+
+.kids.csbody .woocommerce .product-add-to-cart,
+.kids.csbody.woocommerce-page .product-add-to-cart,
+.kids.csbody.woocommerce .product-add-to-cart,
+.kids.csbody.woocommerce-page .product-add-to-cart {
+	text-align: center;
+	display: block;
+}
+
+.kids.csbody .woocommerce span.out-of-stock-button, 
+.kids.csbody.woocommerce-page span.out-of-stock-button, 
+.kids.csbody.woocommerce span.out-of-stock-button, 
+.kids.csbody.woocommerce-page span.out-of-stock-button {
+	height: 42px;
+    line-height: 42px;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    background: #fff;
+    color: #333;
+    position: static;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.kids.csbody .woocommerce span.out-of-stock-button:hover, 
+.kids.csbody.woocommerce-page span.out-of-stock-button:hover, 
+.kids.csbody.woocommerce span.out-of-stock-button:hover, 
+.kids.csbody.woocommerce-page span.out-of-stock-button:hover {
+	color: #fff !important;
+	background: #333;
+}
+
+/* Flower */
+.csbody.flower #cshero-header ul.cshero-dropdown > li > a, 
+.csbody.flower #cshero-header .menu-pages .menu > ul > li > a {
+	padding: 0 20px;
+}
+
+.csbody.flower .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 700;
+}
+.csbody.flower .cshero-shopcarousel-layout3 .cs-title{ margin-bottom: 65px;}
+.csbody.flower .cshero-shopcarousel-layout3 .cs-carousel-item-full > div { padding-top: 10px;}
+.csbody.flower .cshero-shopcarousel-layout3 .cshero-nav.nav-top{ top: -40px;}
+
+/* Shoes */
+
+.shoes ul.cshero-dropdown > li > a > .menu-title{ border-bottom: 1px solid transparent; font-weight: 600; letter-spacing: 3px;}
+.shoes ul.cshero-dropdown > li > a:hover > .menu-title{ border-bottom-color: #adadad;}
+
+.csbody.shoes .cshero-carousel-item .product-content .product-button .product-view-detail,
+.csbody.shoes .cshero-carousel-item .product-content .product-button .product-add-to-cart {
+	display: block;
+}
+
+.csbody.shoes .tp-leftarrow.tparrows.custom, 
+.csbody.shoes .tp-rightarrow.tparrows.custom {
+	line-height: 44px;
+	display: block;
+	width: 76px;
+	height: 44px;
+	text-align: center;
+	border: 2px solid #333;
+}
+
+.csbody.shoes .tp-leftarrow.custom .tp-arr-allwrapper:before,
+.csbody.shoes .tp-rightarrow.custom .tp-arr-allwrapper:before,
+.csbody.shoes .tp-leftarrow.tparrows.custom:before,
+.csbody.shoes .tp-rightarrow.tparrows.custom:before {
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 40px;
+	display: block;
+	color: #333;
+}
+
+.csbody.shoes .tp-leftarrow.custom .tp-arr-allwrapper:before,
+.csbody.shoes .tp-leftarrow.tparrows.custom:before{
+	content: 'back';
+	font-family: "Raleway";
+	font-weight: 600;
+	color: #111;
+} 
+
+.csbody.shoes .tp-rightarrow.custom .tp-arr-allwrapper:before,
+.csbody.shoes .tp-rightarrow.tparrows.custom:before {
+	content: 'next';
+	font-family: "Raleway";
+	font-weight: 600;
+	color: #111;
+}
+
+.csbody.shoes .tp-leftarrow.tparrows.custom:hover .tp-arr-allwrapper:before, 
+.csbody.shoes .tp-rightarrow.tparrows.custom:hover .tp-arr-allwrapper:before {
+	text-decoration: underline;
+	color: #333;
+}
+.csbody.shoes .cshero-shopcarousel .product-title .cshero-title {
+	font-size: 13px;
+}
+
+.csbody.shoes .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 600;
+}
+.csbody.shoes .testimonial-layout1 .cshero-testimonial-title{ font-size: 12px;}
+/* Kids */
+@media (min-width: 993px) {
+	.csbody.kids .header-v4 .logo .col-xs-6,
+	.csbody.shoes .header-v4 .logo .col-xs-6 {
+		width: 100%;
+	}
+}
+.csbody.kids .cshero-shopcarousel-layout3 .cs-carousel-item-full > div { padding-top: 10px;}
+.csbody.kids .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 600;
+}
+
+
+/* Clothing shop 2 */
+.csbody.clothing-shop2 .cshero-header .widget-login {
+	padding-left: 0;
+}
+
+.csbody.clothing-shop2 .cshero-header .widget-login a {
+	color: #aaa;
+}
+
+.csbody.clothing-shop2 #cshero-header ul.cshero-dropdown > li > a, 
+.csbody.clothing-shop2 #cshero-header .menu-pages .menu > ul > li > a {
+	padding: 0 20px;
+}
+
+.csbody.clothing-shop2 #cshero-header ul.cshero-dropdown > li:first-child > a {
+	padding-left: 0;
+}
+
+.csbody.clothing-shop2 #cshero-header .menu-pages .menu > ul > li:last-child > a {
+	padding-right: 0;
+}
+.csbody.clothing-shop2 .cshero-shopcarousel .cshero-carousel-item .product-image > a > span { top: 0; right: 0; left: auto; text-transform: uppercase; width: 90px; height: 42px; line-height: 42px; padding:0; margin: 0; font-size: 12px;}
+
+.csbody.clothing-shop2 .cshero-shopcarousel .product-title .cshero-title {
+	font-size: 13px;
+}
+
+.csbody.clothing-shop2 .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 600;
+}
+
+
+/* Clothing shop 1 */
+.csbody.clothing-shop1 .cshero-header .widget-login a {
+	color: #aaa;
+}
+
+
+.csbody.clothing-shop1 ul.cshero-dropdown > li.current-menu-item > a span:after, 
+.csbody.clothing-shop1 ul.cshero-dropdown > li.current-menu-ancestor > a span:after, 
+.csbody.clothing-shop1 ul.cshero-dropdown > li > a.active span:after,
+.csbody.clothing-shop1  ul.cshero-dropdown > li > a:hover span:after {
+
+}
+.csbody.clothing-shop1 .cshero-shopcarousel .cshero-carousel-item .product-image > a > span { top: 0; right: 0; left: auto; text-transform: uppercase; width: 90px; height: 42px; line-height: 42px; padding:0; margin: 0; font-size: 12px;}
+
+.csbody.clothing-shop1 .cshero-shopcarousel .product-title .cshero-title {
+	font-size: 13px;
+}
+
+.csbody.clothing-shop1 .cshero-shopcarousel-layout3 .product-price .price {
+	font-size: 15px !important;
+	font-weight: 600;
+}
+
+
+
+
+

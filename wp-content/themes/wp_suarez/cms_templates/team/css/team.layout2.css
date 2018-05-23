@@ -1,0 +1,47 @@
+/* All style for Team Layout 2 */
+.team-layout2{}
+.team-layout2 .cshero-team-info-wrap{	margin-bottom: 10px;}
+.team-layout2 .cshero-team-info-wrap .cshero-team-position{ text-transform: uppercase;}
+.team-layout2 .cshero-team-title{
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.team-layout2 .cshero-team-title:after{
+	position: absolute;
+	bottom: 0;
+	content: "";
+	display: block;
+	width: 60px;
+	height: 1px;
+	background-color: #333;
+}
+
+.team-layout2 .cshero-team-carousel-item.text-right .cshero-team-title:after{
+	left: auto;
+	right: 0;
+}
+.team-layout2 .cshero-team-carousel-item.text-center .cshero-team-title:after{
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+       -moz-transform:translateX(-50%);
+      	-ms-transform:translateX(-50%);
+      	 -o-transform:translateX(-50%);
+          	transform:translateX(-50%);
+}
+
+/* Social list style */
+.team-layout2 .cshero-team-social {text-align: center;}
+.team-layout2 .cshero-team-social a{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.team-layout2 .cshero-team-social a:last-child{
+  margin-right: 0;
+}

@@ -1,0 +1,59 @@
+.cshero-fancybox-wrap {
+	display: inline-block;
+	width: 100%;
+}
+.fancybox-layout8{position: relative;}
+.fancybox-layout8 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.3s linear 0s;
+       -moz-transition: all 0.3s linear 0s;
+         -o-transition: all 0.3s linear 0s;
+        -ms-transition: all 0.3s linear 0s;
+            transition: all 0.3s linear 0s;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+          o-transform: scale(0);
+            transform: scale(0);
+}
+
+.fancybox-layout8 .overlay-content {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: block;
+    padding:15px;
+    -webkit-transition: all 0.3s linear 0s;
+       -moz-transition: all 0.3s linear 0s;
+         -o-transition: all 0.3s linear 0s;
+        -ms-transition: all 0.3s linear 0s;
+            transition: all 0.3s linear 0s;
+    -webkit-transform: translate(0px,-50%);
+       -moz-transform: translate(0px,-50%);
+        -ms-transform: translate(0px,-50%);
+         -o-transform: translate(0px,-50%);
+            transform: translate(0px,-50%); 
+}
+
+
+/* Hover State*/
+.fancybox-layout8:hover .overlay {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+          o-transform: scale(1);
+            transform: scale(1);
+}

@@ -1,0 +1,9 @@
+.cshero-fancybox-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+.fancybox-layout5 .cshero-title-main { position: relative; padding-bottom: 35px; display: inline-block;}
+.fancybox-layout5 .cshero-title-main:after { position: absolute; bottom: 0; left: 0; content: ""; width: 70%; height: 1px; background-color: #444; }
+.fancybox-layout5.text-center .cshero-title-main:after{left: 50%; -webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);}
+.fancybox-layout5.text-right .cshero-title-main:after{ left: auto; right: 0;}

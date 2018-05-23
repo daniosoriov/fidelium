@@ -1,0 +1,104 @@
+.cs-process-layout1 .cshero-process-holder{
+	list-style:none;
+	padding: 70px 1px 0;
+	position:relative;
+	overflow: hidden;
+}
+.cs-process-layout1 .cshero-process-holder li {
+    width: 100%;
+	float: left;
+	position: relative;
+}
+.cs-process-layout1 .process-2-column .cshero-process-holder li {
+    width: 50%;
+}
+.cs-process-layout1 .process-3-column .cshero-process-holder li {
+    width: 33.333333%;
+}
+.cs-process-layout1 .process-4-column .cshero-process-holder li {
+    width: 25%;
+}
+.cs-process-layout1 .process-5-column .cshero-process-holder li {
+    width: 20%;
+}
+.cs-process-layout1 .process-6-column .cshero-process-holder li {
+    width: 16.666666%;
+}
+.cs-process-layout1 .process-7-column .cshero-process-holder li {
+    width: 14.285714%;
+}
+.cs-process-layout1 .process-8-column .cshero-process-holder li {
+    width: 12.5%;
+}
+.cs-process-layout1 .cshero-process-holder li + li {
+	padding-left: 20px;
+}
+.cs-process-layout1 .cshero-process-holder li i {
+	background: #fff;
+	color: #59c6df;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.cs-process-layout1 .cshero-process-holder:before,
+.cs-process-layout1 .cshero-process-holder li:before {
+	font-family: FontAwesome;
+	content: '\f111';
+	font-size: 15px;
+	color: #333;
+	left: 18px;
+    position: absolute;
+    top: -76px;
+    z-index: 8;
+}
+.cs-process-layout1 .cshero-process-holder:before {
+	top: -6px;
+	right: 0px;
+	left: auto;
+}
+.cs-process-layout1 .cshero-process-holder li:first-child:before {
+	left: 0px;
+}
+.cs-process-layout1 .cshero-process-holder li .cshero-process-inner {
+	display: inline-block;
+	float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.cs-process-layout1 .cshero-process-holder li .cshero-process-inner:before {
+	background: none repeat scroll 0 0 #eeeeee;
+    content: "";
+    height: 45px;
+    left: 4px;
+    position: absolute;
+    top: -52px;
+    width: 1px;
+}
+
+.cs-process-layout1 .cshero-process-holder li.item-last .cshero-process-inner:after {
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #878787;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    right: -1000px;
+    margin: auto;
+    position: absolute;
+    top: -150px;
+    width: 10000px;
+}
+.cs-process-layout1 .cshero-process-title span {
+	display:block;
+}
+.cs-process-layout1 .cshero-process-separator{
+	height:2px;
+	width:80%;
+}
+.cs-process-layout1 .cshero-process-text {
+	font-size: 13px;
+	line-height: 26px;
+}

@@ -1,0 +1,48 @@
+.woocategories-layout2  .row + .row{ margin-top: 30px;}
+.woocategories-layout2 .cs-categories-woo-image {
+    position: relative;
+}
+
+.woocategories-layout2 .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+}
+.woocategories-layout2 .overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.woocategories-layout2 .cs-categories-woo-meta {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.woocategories-layout2 .cs-categories-woo-meta a {
+    color: #fff;
+}
+
+.woocategories-layout2 .cs-categories-woo-title {
+    margin-top: 25px;
+}
+
+.woocategories-layout2 .cs-categories-woo-meta span {
+    display: block;
+}
+
+.woocategories-layout2 .cs-categories-woo-wrap:hover .cs-categories-woo-image:after,
+.woocategories-layout2 .cs-categories-woo-wrap:hover .cs-categories-woo-meta {
+    opacity: 1;
+}

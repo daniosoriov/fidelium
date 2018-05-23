@@ -1,0 +1,29 @@
+/* All default css style for  layout 3*/
+
+.testimonial-layout3 .cshero-testimonial-item {	
+	position: relative;
+}
+.testimonial-layout3 .cshero-testimonial-icon{
+	position: absolute;
+}
+.testimonial-layout3 .cshero-testimonial-icon.left{
+	left: 0;
+	top: 0;
+}
+.testimonial-layout3 .cshero-testimonial-icon.right{
+	right: 0;
+	bottom: 0;
+}
+
+.testimonial-layout3 article{
+	position: relative;
+	margin:20px 0;
+}
+
+.testimonial-layout3 .cshero-testimonial-title{ margin-top: 25px;}
+
+.testimonial-layout3 .cshero-testimonial-category{
+	text-transform: uppercase;
+}
+
+/* Pager */

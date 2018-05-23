@@ -1,0 +1,65 @@
+.pricing-layout6 {}
+
+.pricing-layout6 .cs-pricing-item {}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-container{
+	-webkit-transition: all 300ms linear 0ms;
+	transition: all 300ms linear 0ms;
+}
+
+.pricing-layout6 .cs-pricing-item h3.cs-pricing-title,
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature h3.cs-pricing-title{ line-height: 60px; margin: 0 20px; padding: 0; border-bottom-width:1px; border-bottom-style: solid; }
+
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature .loaded, 
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature .cs-pricing-button {}
+
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature .cs-pricing-description .jmPrice {}
+
+.cs-pricing .cs-pricing-item.cs-pricing-feature .loaded, 
+.cs-pricing .cs-pricing-item.cs-pricing-feature .cs-pricing-button {}
+
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature {}
+
+
+
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .jmPrice {background-color: transparent !important;}
+.pricing-layout6 .cs-pricing-item .cs-pricing-wrap {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .loaded {}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .jmPrice .number {
+	font-size: 48px;
+}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .jmPrice small {
+	font-size: 14px;
+	text-transform: lowercase;
+	color: #222222;
+}
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .loaded dd,
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature .cs-pricing-description .loaded dd{ margin:0 20px; padding: 7px 0;}
+.pricing-layout6 .cs-pricing-item .cs-pricing-description .loaded dd:first-child {
+	padding-top: 0;
+}
+
+.pricing-layout6 .cs-pricing-item .cs-pricing-button,
+.pricing-layout6 .cs-pricing-item.cs-pricing-feature .cs-pricing-button{{ padding: 36px 0;}

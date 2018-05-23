@@ -1,0 +1,969 @@
+            
+            @media (min-width: 1200px){
+                .container{
+                    width:1200px;
+                }
+            }
+            
+            .csbody a,
+            #header-top2 a.icon_cart_wrap {
+                color: #333333;
+            }
+                            #header-top2 a.icon_cart_wrap {
+                    color: #333333;
+                }
+                                        #header-top2 a.icon_cart_wrap:hover {
+                    color: #aaaaaa;
+                }
+                        .csbody a:hover,
+            .csbody a:focus,
+            .csbody a:active,
+            .csbody a.active {
+                color: #70d2e5;
+            }
+            .color-primary,
+            .primary-color,
+            .primary-color *{
+                color: #666666;
+            }
+            .color-secondary{
+                color: #70d2e5;
+            }
+            
+            .bg-primary-color,
+            ul.cs_list_circle li:before, 
+            ul.cs_list_circleNumber li:before{
+                background-color:#666666;
+            }
+            
+            
+            /* =========================================================        Start Typo    ========================================================= */
+            body.csbody h1 > a {
+                color:#333;
+            }
+            body.csbody h2 > a {
+                color: #333;
+            }
+            body.csbody h3 > a  {
+                color:#333;
+            }
+            body.csbody h4 > a {
+               color: #333;
+            }
+            body.csbody h5 > a {
+               color: #333;
+            }
+            body.csbody h6 > a {
+               color:#333;
+            }
+            
+            /* ========================================    Start Header   ================================ */
+            
+            /* Header Top Color Option */
+                #header-top {
+                    background: #333333 ;
+                    color:#FFFFFF ;
+                }
+                #header-top h1,#header-top h2,#header-top h3,
+                #header-top h4,#header-top h5,#header-top h6{
+                    color: #FFFFFF;
+                }
+                #header-top a{
+                    color: #888888;
+                }
+                #header-top a:hover,
+                #header-top a:focus,
+                #header-top a:active{
+                    color: #FFFFFF;
+                }
+            
+            /* Header Top 2 Color Option */
+                #header-top2 {
+                    color:#aaaaaa ;
+                }
+            
+                #header-top2 h1,#header-top2 h2,#header-top2 h3,
+                #header-top2 h4,#header-top2 h5,#header-top2 h6{
+                    color: #aaaaaa;
+                }
+                
+                #header-top2 a{
+                    color: #aaaaaa;
+                }
+                #header-top2 a:hover,
+                #header-top2 a:focus,
+                #header-top2 a:active{
+                    color: #333333;
+                }
+            
+            /* Default Main Navigation Header Widget */
+                #cshero-header .cshero-header-content-widget{
+                    position: relative;
+                    color: ;
+                }
+                #cshero-header .cshero-header-content-widget a{
+                    padding:0px 10px 0px 10px;
+                    color: #373737 !important;
+                    display:inline-block;
+                }
+                #cshero-header .cshero-header-content-widget .cshero-hidden-sidebar-btn > a{
+                    padding:0px 10px 0px 10px;
+                }
+                #cshero-header .cshero-header-content-widget a:hover,
+                #cshero-header .cshero-header-content-widget a:focus,
+                #cshero-header .cshero-header-content-widget a:active{
+                    color: #70d2e5 !important;
+                }
+            /* End Default Main Navigation Header Widget */
+            
+            #cshero-header{
+                padding:0;
+                margin:0;
+            }
+            .logo > a {
+                padding: 0;
+                margin:0; 
+            }
+                        .logo > a > img {
+                max-height : 36px            }
+                                    .logo-sticky > a > img {
+                max-height : 36px            }
+                            /*** Special style for each header ***/
+                /* Header V2 */
+                .header-v2 #cshero-header .logo > a{
+                    min-height: 0;
+                    line-height: normal;
+                                            padding-top:30px;
+                                        margin:0;
+                }
+            
+                /* Header V4 Fixed on Left / Right*/
+                
+                @media (min-width: 993px) {
+                                        .header-v4 .main-menu-left > ul > li > a {
+                        /* border-bottom: 1px solid transparent ; */
+                    }
+                                        
+                    .header-v4 .header-wrapper, .header-v4 #cshero-header,
+                    .header-v4 .cshero-header-fixed-content-widget {
+                        width: 300px;
+                    }
+                                        .header-left .main-menu > li:hover:before,
+                    .header-left .main-menu > li:hover:after,
+                    .header-left .main-menu > li.current-menu-item:before,
+                    .header-left .main-menu > li.current-menu-item:after,
+                    .header-left .main-menu > li.current-menu-parent:before,
+                    .header-left .main-menu > li.current-menu-parent:after {
+                        background-color:  rgba();
+                    }
+                    .header-v4 #cshero-header ul.cshero-dropdown > li > a{
+                        line-height: normal;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+            
+            /* Sticky Header */
+                #header-sticky {
+                    background-color: rgba(255, 255, 255, 1.0);
+                                        border-bottom:1px solid  rgba(238, 238, 238, 1.0)                                    }
+                #header-sticky.fixed{
+                    max-height: 60px;
+                }
+                #sticky-nav-wrap .menu-item-cart-search .header-cart-search .widget_searchform_content,
+                #sticky-nav-wrap .menu-item-cart-search .header-cart-search .shopping_cart_dropdown {
+                    top: 60px;
+                }
+                .sticky-header .cshero-logo > a{
+                    line-height: 60px;
+                    min-height: 60px;
+                    padding:0;
+                    margin:0;
+                }
+            
+                /* Sticky Header Main Navigation Widget */
+                    #header-sticky .cshero-header-content-widget{
+                        height:60px;
+                        position: relative;
+                    }
+                    #cshero-header #header-sticky .cshero-header-content-widget{ height:60px;} /* for custom header */
+                    #header-sticky .cshero-header-content-widget .header a{
+                        padding:0px 10px 0px 10px;
+                    }
+                    #header-sticky .cshero-header-content-widget .cshero-hidden-sidebar-btn > a{
+                        padding:0px 10px 0px 10px;
+                    }
+                    #header-sticky .cshero-header-content-widget{
+                        height:60px;
+                        position: relative;
+                    }
+                /* End Sticky Header Navigation Widget */
+            
+                                    @media (max-width: 992px) and (min-width: 768px) {
+                        #header-sticky{
+                            display: none;
+                        }
+                    }
+                                                    @media (max-width: 767px) {
+                        #header-sticky{
+                            display: none;
+                        }
+                    }
+                            /*** Start Main Menu ***/
+                /* General Option */
+                .cshero-menu-dropdown > ul > li > a,
+                ul.cshero-dropdown li > a{
+                    text-transform: uppercase                }
+                
+                   
+                /* Sub level */
+                .cshero-dropdown ul.sub-menu,
+                .cshero-dropdown ul.sub-menu ul {
+                    min-width: 250px;
+                }
+                /* End General Option */
+            
+                /* Default Menu */
+                #cshero-header .main-menu-content,
+                #cshero-header .full-menu-background   {
+                    background-color: transparent ;
+                }
+            
+                /* First Level */
+                #cshero-header ul.cshero-dropdown > li > a,
+                #cshero-header .menu-pages .menu > ul > li > a{
+                    font-size:12px;
+                    
+                    padding-left: 10px ;
+                    padding-top: 0px ;
+                    padding-right: 10px ;
+                    padding-bottom: 0px ;
+                    margin:0px;
+                }
+                #cshero-header ul.cshero-dropdown > li > a:hover,
+                #cshero-header .menu-pages .menu > ul > li > a:hover,
+                #cshero-header ul.cshero-dropdown > li > a:focus,
+                #cshero-header ul.cshero-dropdown > li:hover > a,
+                #cshero-header ul.cshero-dropdown > li:focus > a,
+                #cshero-header ul.cshero-dropdown > li:active > a{
+                    
+                    background-color:rgba();
+                }
+                #cshero-header ul.cshero-dropdown > li.current-menu-item > a,
+                #cshero-header ul.cshero-dropdown > li.current-menu-ancestor > a,
+                #cshero-header ul.cshero-dropdown > li > a.active,
+                #cshero-header ul.cshero-dropdown > li > a:active{
+                    
+                    background-color:rgba();
+                }
+                /* Sub Level */
+                #cshero-header #menu ul.cshero-dropdown li:not(.group) > .sub-menu,
+                .cshero-menu-dropdown .cshero-dropdown li:not(.group) > .sub-menu{ width:220px; border-top:3px solid #70d2e5; background-color:#222222;}
+                
+                #cshero-header #menu ul.cshero-dropdown ul.standar-dropdown.sub-menu > .no_group,
+                #cshero-header #menu ul.cshero-dropdown ul.standar-dropdown.sub-menu .standard.sub-menu> .no_group {
+                    border-top:1px solid transparent;
+                }
+                
+                #cshero-header #menu ul.sub-menu .group > a{
+                    color:#ffffff;
+                    font-size:12px;
+                }
+                #cshero-header #menu ul.cshero-dropdown ul > li > a{
+                    font-size:12px;
+                    color:#888888;
+                    text-transform: uppercase                }
+                /* Hover state */
+                #cshero-header #menu ul.cshero-dropdown ul > li > a:hover,
+                #cshero-header #menu ul.cshero-dropdown ul > li > a:focus,
+                #cshero-header #menu ul.cshero-dropdown ul > li:not(.group):hover > a,
+                #cshero-header #menu ul.cshero-dropdown ul > li:not(.group):focus > a,
+                #cshero-header #menu ul.cshero-dropdown ul > li:not(.group):active > a,
+                #cshero-header #menu ul.cshero-dropdown ul > li:not(.group):visited > a{
+                    color:#ffffff;
+                    background-color:transparent;
+                }
+                /* Active state */
+                #cshero-header #menu ul.cshero-dropdown ul > li.current-menu-item > a,
+                #cshero-header #menu ul.cshero-dropdown ul > li.current-menu-ancestor > a,
+                #cshero-header #menu ul.cshero-dropdown ul > li > a:active,
+                #cshero-header #menu ul.cshero-dropdown ul > li > a.active{
+                    color:#ffffff;
+                    background-color:transparent;
+                }
+                /* End Default Menu*/
+                /* Sticky Menu */
+                .sticky-menu{
+                    background-color: transparent ;
+                }
+                /* First Level */
+                #header-sticky ul.cshero-dropdown > li > a,
+                #header-sticky .menu-pages .menu > ul > li > a {
+                    font-size:12px; 
+                    color:#373737;
+                    line-height: 60px !important;
+                    padding-left: 10px ;
+                    padding-top: 0px ;
+                    padding-right: 10px ;
+                    padding-bottom: 0px ;
+                    margin:0px;
+                }
+                #header-sticky ul.cshero-dropdown > li > a:hover,
+                #header-sticky ul.cshero-dropdown > li > a:focus,
+                #header-sticky ul.cshero-dropdown > li:hover > a,
+                #header-sticky .menu-pages .menu > ul > li:hover > a,
+                #header-sticky ul.cshero-dropdown > li:focus > a,
+                #header-sticky ul.cshero-dropdown > li:active > a{
+                    color:#70d2e5;
+                    background-color:rgba();
+                }
+                #header-sticky ul.cshero-dropdown > li.current-menu-item > a,
+                #header-sticky ul.cshero-dropdown > li.current-menu-ancestor > a,
+                #header-sticky ul.cshero-dropdown > li > a.active,
+                #header-sticky ul.cshero-dropdown > li > a:active{
+                    color:#70d2e5;
+                    background-color:rgba();
+                }
+                /* Sub Level */
+            
+                #header-sticky ul.cshero-dropdown li.no_group > .sub-menu{  border-top:3px solid #70d2e5; background-color:#222222;}
+                  
+                #header-sticky ul.cshero-dropdown ul.sub-menu .group > a{
+                    color:#ffffff;
+                    font-size:12px;
+                }
+            
+                #header-sticky ul.cshero-dropdown ul.standar-dropdown.sub-menu > .no_group,
+                #header-sticky ul.cshero-dropdown ul.standar-dropdown.sub-menu .standard.sub-menu > .no_group {
+                    border-top:1px solid transparent;
+                }
+                #header-sticky ul.cshero-dropdown ul.sub-menu .group > a {
+                    border-top:1px solid transparent;
+                    border-bottom:1px solid transparent;
+                }
+                #header-sticky ul.sub-menu .group > a {
+                    color:#ffffff;
+                }
+                #header-sticky ul.cshero-dropdown ul > li > a{
+                    font-size:12px;
+                    color:#888888;
+                }
+                /* Hover state */
+                #header-sticky ul.cshero-dropdown ul > li > a:hover,
+                #header-sticky ul.cshero-dropdown ul > li > a:focus,
+                #header-sticky ul.cshero-dropdown ul > li:not(.group):hover > a,
+                #header-sticky ul.cshero-dropdown ul > li:not(.group):focus > a,
+                #header-sticky ul.cshero-dropdown ul > li:not(.group):active > a,
+                #header-sticky ul.cshero-dropdown ul > li:not(.group):visited > a{
+                    color:#ffffff;
+                    background-color:transparent;
+                }
+                /* Active state */
+                #header-sticky ul.cshero-dropdown ul > li.current-menu-item > a,
+                #header-sticky ul.cshero-dropdown ul > li.current-menu-ancestor > a
+                #header-sticky ul.cshero-dropdown ul > li > a:active,
+                #header-sticky ul.cshero-dropdown ul > li > a.active{
+                    color:#ffffff;
+                    background-color:transparent;
+                }
+                /* End Sticky Menu*/
+            
+                /* Main header  sidebar icon */
+                #cshero-header  ul.cs-hidden-sidebar > li > a{
+                    line-height: 118px;
+                    padding:0px 10px 0px 10px;
+            
+                }
+                #cshero-header  ul.cs-item-cart-search > li .header a{
+                    line-height: 118px;
+                    padding:0px 10px 0px 10px;
+                }
+                
+                /* Sticky sidebar icon */
+                #header-sticky  ul.cs-hidden-sidebar > li > a{
+                    line-height: 60px;
+                    padding:0px 10px 0px 10px;
+                }
+                #header-sticky  ul.cs-item-cart-search > li .header a{
+                    line-height: 60px;
+                    padding:0px 10px 0px 10px;
+                }
+                    
+            /* Custom Menu Header */
+            .cs_custom_header_menu{}
+                /* Fix Social Widget */
+                .cs_custom_header_menu ul.cs-social li a,
+                .cs_custom_header_menu li.cshero-hidden-sidebar a{
+                    padding:0px 10px 0px 10px !important;
+                    color: #373737 !important;
+                    display:inline-block !important;
+                }
+                .cs_custom_header_menu ul.cs-social li a:hover,
+                .cs_custom_header_menu ul.cs-social li a:focus,
+                .cs_custom_header_menu ul.cs-social li a:active,
+                .cs_custom_header_menu li.cshero-hidden-sidebar a:hover,
+                .cs_custom_header_menu li.cshero-hidden-sidebar a:focus,
+                .cs_custom_header_menu li.cshero-hidden-sidebar a:active{
+                    color: #FFFFFF !important;
+                }
+            /* End Custom Menu Header */
+            #menu.menu-up .main-menu > li > ul{
+                bottom: 118px; /* for menu fixed bottm */
+            }
+            
+            /* Mobile Tablet Menu */
+                #cshero-main-menu-mobile { 
+                    background-color:#373737;
+                }
+                /* First Level */
+                #cshero-main-menu-mobile ul.cshero-dropdown > li > a { 
+                    color:#ffffff !important;
+                }
+                #cshero-main-menu-mobile ul.cshero-dropdown > li > a:hover { 
+                    color:#999999 !important;
+                }
+                /* Level 2+ */
+                #cshero-main-menu-mobile ul.sub-menu > li > a{
+                    border-bottom:1px solid #999999 !important;
+                }
+                #cshero-main-menu-mobile ul.sub-menu > li > a{
+                    color:#999999 !important;
+                }
+                #cshero-main-menu-mobile ul.sub-menu > li > a:hover{
+                    color:#ffffff !important;
+                }
+            
+            /* =========================================================        Start Primary    =========================================================*/
+                /* Form Style */
+                form {
+                    background-color: transparent;
+                }
+            
+                form,
+                form label,
+                form input,
+                form button,
+                form select,
+                form textarea,
+                input::-moz-placeholder, 
+                textarea::-moz-placeholder {
+                    color: #999999;
+                }
+            
+                form input,
+                form select,
+                form textarea,
+                form button {
+                    color: #999999;
+                    background-color: #ffffff;
+                    border-style:solid;
+                    border-width: 1px;
+                    border-color: #eeeeee;
+                    -webkit-border-radius: 0; 
+                    -ms-border-radius: 0;
+                    -moz-border-radius: 0;
+                    -o-border-radius: 0;
+                    border-radius: 0;
+                    box-shadow: none;
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                    -ms-box-shadow: none;
+                    -o-box-shadow: none;
+                }
+            
+                form input:hover,
+                form select:hover,
+                form textarea:hover,
+                form button:hover,
+                form input:active,
+                form select:active,
+                form textarea:active,
+                form button:active,
+                form input:focus,
+                form select:focus,
+                form textarea:focus,
+                form button:focus {
+                    background-color: #ffffff;
+                    border-color: #70d2e5;
+                    box-shadow: none;
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                    -ms-box-shadow: none;
+                    -o-box-shadow: none;
+                }
+            
+            
+            /* Style for FORM in Parallax section
+            NOTE: you need add extra class name called parallax-form to row or column or shortcode setting
+            */
+            .content-area .parallax-form input[type="text"]:hover,
+            .content-area .parallax-form input[type="password"]:hover,
+            .content-area .parallax-form input[type="datetime"]:hover,
+            .content-area .parallax-form input[type="datetime-local"]:hover,
+            .content-area .parallax-form input[type="date"]:hover,
+            .content-area .parallax-form input[type="month"]:hover,
+            .content-area .parallax-form input[type="time"]:hover,
+            .content-area .parallax-form input[type="week"]:hover,
+            .content-area .parallax-form input[type="number"]:hover,
+            .content-area .parallax-form input[type="email"]:hover,
+            .content-area .parallax-form input[type="url"]:hover,
+            .content-area .parallax-form input[type="search"]:hover,
+            .content-area .parallax-form input[type="tel"]:hover,
+            .content-area .parallax-form input[type="color"]:hover,
+            .content-area .parallax-form input[type="submit"]:hover,
+            .content-area .parallax-form textarea:hover,
+            .content-area .parallax-form label:hover,
+            .content-area .parallax-form select:hover{
+                border-color: #666666;
+            }
+            
+            /* =========================================================        Start Sidebar    =========================================================*/
+            .widget_calendar td:hover {
+                background: #666666;
+            }
+            /* =========================================================        Start Title and Module    =========================================================*/
+            .title-preset2 h3 {
+                color: #70d2e5;
+            }
+            .title-preset1 h3, .title-style-colorprimary-retro h3, .title-style-colorprimary-retro2 h3,
+            .title-style-colorprimary-retro2 h3 + p,.tagline  {
+                color: #666666 ;
+            }
+            .title-restaurant .wpb_wrapper > h1,
+            .title-restaurant .wpb_wrapper > h3 {
+                background: #666666;
+            }
+            .title-restaurant2 .wpb_wrapper > h3,
+            .title-restaurant2 .wpb_wrapper > h1 {
+                color: #666666;
+            }
+            
+            /* =========================================================        Start Button Style    =========================================================*/
+            
+            .csbody .btn, .csbody .btn-default, .csbody button, .csbody .button, .csbody input[type="submit"], .csbody input[type="button"], .csbody input#submit,
+            .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+                font-size: 12px ;
+                                    text-transform: uppercase;
+                                letter-spacing: 1px;
+                font-weight:600;
+                font-style:normal;
+                background-color: rgba(51, 51, 51, 1);
+                color: #ffffff;
+                border-style: solid;
+                border-color: #333333;
+                border-width: 1px 1px 1px 1px;
+            
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+               
+                padding-top: 11px;
+                padding-right: 41px;
+                padding-bottom: 11px;
+                padding-left: 41px;
+            
+                margin: 0;
+            }
+            .csbody .btn:hover,
+            .csbody .btn:focus,
+            .csbody .button:hover,
+            .csbody .button:focus,
+            .csbody  button:hover,
+            .csbody  button:focus,
+            .csbody  input[type="submit"]:hover,
+            .csbody  input[type="submit"]:focus,
+            .csbody  input#submit:hover,
+            .csbody  input#submit:focus,
+            a.comment-reply-link:hover,
+            a.comment-reply-link:focus {
+                background-color: rgba(112, 210, 229, 1);
+                color: #ffffff;
+                border-color: #70d2e5;
+            }
+            
+            /* btn Default Hover */
+            .csbody .btn:hover,
+            .csbody .btn-default:hover,
+            .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+                border-color: #70d2e5;
+                color: #ffffff;
+                background: rgba(112, 210, 229, 1);
+            }
+            /* btn Default Alt */
+            .csbody .btn-default-alt {
+                background:transparent;
+                color: #333333;
+            }
+            .csbody .btn-default-alt:hover,
+            .csbody .btn-default-alt:focus {
+                background-color: rgba(112, 210, 229, 1);
+            }
+            
+            /* btn White */
+            .csbody .btn-white{
+                background-color:#fff;
+                border-color:#fff;
+                color: #333333;
+            }
+            
+            /* btn border */
+            .csbody .btn-border,
+            .csbody .btn-border[type="submit"] {
+                border-style: solid;
+                border-color: #333333;
+                border-width: 1px 1px 1px 1px;
+                color: #333333;
+                background: rgba(255, 255, 255, 1);
+                font-size: 12px ;
+            }
+            
+            .csbody .btn-border:hover {
+                border-color: #333333;
+                color: #ffffff;
+                background: rgba(51, 51, 51, 1);
+            }
+            
+            /* btn Border White */
+            .csbody .btn-border-white{
+                border-color:#fff;
+                color:#fff;
+                background:transparent;
+            }
+            .csbody .btn-border-white:hover{
+                border-color: #333333;
+                color: #ffffff;
+                background: rgba(51, 51, 51, 1);
+            } 
+            
+            /* btn primary */
+            .csbody .btn-primary{
+                
+                font-size: 12px;
+                                    text-transform: uppercase;
+                            
+                background-color: rgba(112, 210, 229, 1);
+                color: #ffffff;
+            
+                border-style: solid;
+                border-color: #70d2e5;
+                border-width: 1px 1px 1px 1px;
+                
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            
+                margin: 0;
+            }
+            
+            .csbody .btn-primary:hover,
+            .csbody .btn-primary:active,
+            .csbody .btn-primary:focus {
+                background-color: rgba(255, 255, 255, 1);
+                color: #70d2e5;
+                border-color: #70d2e5;  
+            }
+            .csbody .btn-primary-alt:hover,
+            .csbody .btn-primary-alt:focus {
+                 background: rgba(102, 102, 102, 0.6);
+            }
+            
+            /*** Size Button ***/
+            .csbody .btn-large,
+            .csbody .btn-lg{
+                font-size: 12pxpx; 
+                padding-right: 102.5px;
+                padding-left: 102.5px;
+            }
+            .csbody .btn-medium,
+            .csbody .btn-md {
+                font-size: 12pxpx; 
+                padding-right: 61.5px;
+                padding-left: 61.5px;
+            }
+            .csbody .btn-small,
+            .csbody .btn-sm {
+                font-size: 12pxpx; 
+                padding-top: 11pxpx;
+                padding-right: 41pxpx;
+                padding-left: 41pxpx;
+                padding-bottom: 11pxpx;
+            }
+            .csbody .btn-mini,
+            .csbody .btn-xs {
+                font-size: 12pxpx; 
+                padding-top: 6px;
+                padding-right: 31px;
+                padding-left: 31px;
+                padding-bottom: 6px;
+            }
+            /* =========================================================
+                End Button Style
+            =========================================================*/
+            /* =========================================================
+                Start Short Code
+            =========================================================*/
+            /*** High light ***/
+            .cs-highlight-style-1 {
+                 background: #666666;
+            }
+            
+            
+            /*** ATL QUOTE ***/
+            .cs-quote-style-2-alt,
+            .cs-quote-style-1-alt {
+                border-color: #70d2e5;
+            }
+            
+            .cs-quote-style-1-alt:before,
+            .cs-quote-style-3-alt:after {
+                color: #70d2e5;
+            }
+            
+            
+            
+            /*---- Start Accordion ----*/
+            .wpb_accordion.style1 .wpb_accordion_section .wpb_accordion_header a {
+                background: #666666;
+            }
+            .wpb_accordion.style1 .wpb_accordion_section .ui-accordion-header-active.wpb_accordion_header a {
+            	background: #70d2e5;
+            }
+            /*---- End Accordion ----*/
+            
+            /* Start Highlight */
+            .cs-highlight-style-1 {
+                background-color: #70d2e5;
+            }
+            .cs-highlight-style-2 {
+                background-color: #666666;
+            }
+            .cs-highlight-style-3 {
+                background-color: #333333;
+            }
+            
+            /* =========================================================
+                End Short Code
+            =========================================================*/
+            /*Start All Style Widget WP*/
+            /* Default widget */
+            
+            /* =========================================================
+                Start Bottom
+            =========================================================*/
+            #cs-bottom-wrap {
+                color:  ;
+            	padding:;
+            	margin:;
+            }
+            #cs-bottom-wrap h3,#cs-bottom-wrap h1,#cs-bottom-wrap h2,#cs-bottom-wrap h4
+            ,#cs-bottom-wrap h5,#cs-bottom-wrap h6 {
+                color:  ;
+            }
+            #cs-bottom-wrap a {
+                color:  ;
+            }
+            #cs-bottom-wrap a:hover {
+                color:  ;
+            }
+            /* =========================================================
+                Start Footer
+            =========================================================*/
+            #footer-top {
+                color: #888888;
+                            }
+            #footer-top form input:hover,
+            #footer-top form input:focus,
+            #footer-top form select:hover,
+            #footer-top form select:focus,
+            #footer-top form textarea:hover,
+            #footer-top form textarea:focus,
+            #footer-top form button:hover,
+            #footer-top form button:focus{
+                color: #888888;
+            }
+            #footer-top h3.wg-title {
+                color: #ffffff;
+                font-size: 14px;
+            }
+            
+                        
+            #footer-top h3.wg-title {
+                                    text-transform: uppercase;
+                            }
+            #footer-top a {
+                color: #888888;
+            }
+            #footer-top a:hover {
+                color: #ffffff;
+            }
+            #footer-top .cs-social a i {
+                color:#ffffff;
+            }
+            #footer-top .cs-social a:hover i {
+                color: #333333;
+            }
+            #footer-top .cs-social.style-4 li a:hover i {
+                border-color: #333333;
+            }
+            #footer-bottom {
+                background-color: #ffffff ;
+                color: #666666;
+            	margin: 0;
+            }
+            #footer-bottom{
+            	            	            		padding: 30px 0;	
+            	            }
+            #footer-bottom h3.wg-title {
+                color: #666666;
+            }
+            #footer-bottom a {
+                color: #666666;
+            }
+            #footer-bottom a:hover {
+                color: #333333;
+            }
+                        #footer-top {
+                padding: 70px 0px;
+                margin: 0px;
+            }
+                        
+            #footer-top .widget_cs_social_widget.style2 ul li a{
+            	background-color:  #888888;
+            	color:#ffffff;
+            }
+            #footer-top .widget_cs_social_widget.style2 ul li a:hover{
+            	background-color:  #ffffff;
+            	color:#333333;
+            }
+                        .footer-bottom-1{
+                text-align: center;
+            }
+                                    .footer-bottom-2{
+                text-align: center;
+            }
+                        
+            /* ==========================================================================
+               Hidden Menu Sidebar
+            ========================================================================== */
+            .meny-sidebar {
+                width: 220px;
+            }
+            .right_sidebar_opened .meny-sidebar {
+                right: -220px;
+            }
+            .left_sidebar_opened .meny-sidebar {
+                left: -220px;
+            }
+            .meny-sidebar ul li a:hover, .meny-sidebar ul li a:focus {
+                color: #666666;
+            }
+            .meny-top .meny-sidebar {
+                height: 320px ;
+            }
+            .meny-top.meny-active #wrapper {
+            -webkit-transform: translateY(320px) rotateX(-15deg);
+               -moz-transform: translateY(320px) rotateX(-15deg);
+                -ms-transform: translateY(320px) rotateX(-15deg);
+                 -o-transform: translateY(320px) rotateX(-15deg);
+                    transform: translateY(320px) rotateX(-15deg);
+            }
+            body.left_sidebar_opened {
+            -webkit-transform:translateX(220px);
+               -moz-transform:translateX(220px);
+                -ms-transform:translateX(220px);
+                 -o-transform:translateX(220px);
+                    transform:translateX(220px);
+            }
+            body.right_sidebar_opened {
+                -webkit-transform:translateX(-220px);
+                   -moz-transform:translateX(-220px);
+                    -ms-transform:translateX(-220px);
+                     -o-transform:translateX(-220px);
+                        transform:translateX(-220px);
+            }
+            
+            .cs-navigation .page-numbers:hover, .cs-navigation .page-numbers.current {
+                background: #666666;
+            }
+            
+            /*============================================                Start Post Blog Style    ============================================*/
+            .cs-blog .cs-blog-share i{
+                background-color: #70d2e5;
+            }
+            .cs-blog .cs-blog-share i:hover,
+            .cs-blog .cs-blog-share i:active,
+            .cs-blog .cs-blog-share i:focus{
+                background-color: #666666;
+            }
+            .blog-multiple-columns-style2  .cs-blog .cs-blog-media .readmore{
+                background: rgba(102, 102, 102, 0.8);
+            }
+            .blog-multiple-columns-style2  .cs-blog:hover .cs-blog-title a,
+            .blog-multiple-columns-style2  .cs-blog:active .cs-blog-title a,
+            .blog-multiple-columns-style2  .cs-blog:focus .cs-blog-title a{
+                color: #666666;
+            }
+            
+            
+            /* Woo */
+            .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page #content input.button:hover,
+            .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
+            .cs-content-related-items .cs-nav ul li a:hover,
+            .widget_product_tag_cloud .tagcloud a:hover,
+            .blog-modern-wrap .cs-blog .cs-blog-content .readmore a:hover,
+            .blog-medium-image-wrap .cs-blog .cs-blog-content .readmore a:hover,
+            .woocommerce-cart.csbody .shipping_calculator .shipping-calculator-form .cs-update-totals:hover,
+            .cs-meta-bottom-wrap ul li.cs-blog-favorite:hover, 
+            .cs-meta-bottom-wrap ul li.cs-blog-comments:hover,
+            .woocommerce-checkout #payment .button:hover {
+            	background: #70d2e5 !important;
+            }
+            
+            .csbody.clothing-shop2 .cshero-header .widget-login a:hover,
+            .csbody.clothing-shop1 .cshero-header .widget-login a:hover,
+            .blog-modern-wrap .cshero-single-related .special-related-post .readmore a:hover,
+            .csbody.woocommerce-cart .cart-collaterals .cart_totals table .order-total .amount {
+                color: #70d2e5            }
+            
+            .woocommerce .woocommerce-info:before, 
+            .woocommerce-page .woocommerce-info:before {
+                background: #70d2e5;
+            }
+            
+            .woocommerce .woocommerce-info, 
+            .woocommerce-page .woocommerce-info {
+                border-color: #70d2e5            }
+            
+            .home-landing-game .fancybox-layout6 .cshero-fancybox-content a.dois-font,
+            .cs-blog .cs-blog-content .readmore a:hover,
+            .home-bar-wrap .postcarousel-layout3 .cs-morelink a:hover {
+                color: #70d2e5            }
+            
+            .home-landing-game .fancybox-layout6 .cshero-fancybox-content a.dois-font:hover {
+                color: #666666            }
+            
+            #cs-breadcrumb-wrapper a {
+                color: #888888;
+            }
+            
+            .home-hosting-wrap .widget-login li a:hover,
+            #bbpress-forums ul.bbp-lead-topic a:hover, 
+            #bbpress-forums ul.bbp-topics a:hover, 
+            #bbpress-forums ul.bbp-forums a:hover, 
+            #bbpress-forums ul.bbp-replies a:hover, 
+            #bbpress-forums ul.bbp-search-results a:hover,
+            #cs-breadcrumb-wrapper span a:hover,
+            #cs-breadcrumb-wrapper a:hover {
+                color: #333333;
+            }
+            
+            #bbpress-forums li.bbp-header {
+                background: #333333            }
+            /*======================================*/
+            /*        3rd Extensions                */
+            /*======================================*/ 
+            

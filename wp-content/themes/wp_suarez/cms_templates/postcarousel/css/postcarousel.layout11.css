@@ -1,0 +1,124 @@
+
+.postcarousel-layout11 .cshero-header{ margin-bottom: 60px;}
+.postcarousel-layout11 .cshero-header .cshero-title{ margin-bottom: 30px;}
+.postcarousel-layout11 .cshero-header .cshero-subtitle { margin-bottom: 40px;}
+
+/*item image style*/
+.postcarousel-layout11 .cshero-carousel-image {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.postcarousel-layout11 .cshero-carousel-image img {}
+/*item body style*/
+.postcarousel-layout11 .cshero-carousel-image + div{margin-top: 10px;}
+/*item meta style*/
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-meta {}
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-meta span{position: relative;}
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-meta span:after{content: "/"; display: inline-block;margin: 0 10px;font-size: 12px; line-height: normal;}
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-meta span:last-child:after{display: none;content: 0;margin: 0;}
+/*item title style */
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-title  {margin:0;}
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-title a {display: block;}
+/*item description */
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-meta + .cshero-carousel-post-description{ margin-top: 20px;}
+/*item read more*/
+.postcarousel-layout11 .cshero-carousel-body .cshero-carousel-footer{margin-top: 20px;}
+
+/* Overlay style */
+.postcarousel-layout11 .overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+          o-transform: scale(0);
+            transform: scale(0);
+    z-index: 4 !important;
+}
+.postcarousel-layout11 .overlay.off {
+    z-index: 1;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    z-index: 2 !important;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+          o-transform: scale(1);
+            transform: scale(1);
+}
+.postcarousel-layout11 .overlay-content {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: block;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: translate(0px,-50%);
+       -moz-transform: translate(0px,-50%);
+        -ms-transform: translate(0px,-50%);
+         -o-transform: translate(0px,-50%);
+            transform: translate(0px,-50%); 
+}
+
+/* post type icon */
+.postcarousel-layout11 .show-post-type .cshero-carousel-image:before{ 
+  left: 50%; 
+  top: 50%;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  font-size:60px; 
+  color: #fff;
+  -webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+/* Hover State*/
+.postcarousel-layout11 article:hover .overlay {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+          o-transform: scale(1);
+            transform: scale(1);
+}
+.postcarousel-layout11 article:hover .overlay.off{
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+          o-transform: scale(0);
+            transform: scale(0);
+}

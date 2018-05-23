@@ -1,0 +1,174 @@
+.cshero-header {
+    margin-bottom: 30px;
+}
+
+/* Filter */
+.cshero_portfolio_filters{
+    margin-bottom: 90px;
+}
+.cshero_portfolio_filters ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.cshero_portfolio_filters ul li:first-child{
+    padding-left: 0;
+}
+.cshero_portfolio_filters ul li:last-child{
+    padding-right: 0;
+}
+.cshero_portfolio_filters ul li a{
+    display: block;
+    line-height: 1;
+}
+
+/* Item layout */
+.cshero-portfolio-item {
+    float: left;
+}
+.cshero-portfolio .cshero-portfolio-item img {
+    width: 100%;
+}
+
+.cshero-portfolio .link-wrap a{
+    margin: 0 5px 5px 0;
+}
+.cshero-portfolio .link-wrap a:last-child{
+    margin-right: 0;
+}
+
+.cshero-portfolio-view-all{
+    margin-top: 30px;
+}
+
+
+.cshero-portfolio-container .link-wrap a.icon-link{
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+.cshero-portfolio-container .link-wrap.icon-cirle a.icon-link{
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.cshero-portfolio-pagination{ margin-top: 30px;}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .cshero-portfolio-col2 .cshero-portfolio-item {
+        width: 50%;
+    }
+    .cshero-portfolio-col3 .cshero-portfolio-item {
+        width: 33.33%;
+    }
+    .cshero-portfolio-col4 .cshero-portfolio-item {
+        width: 25%;
+    }
+    .cshero-portfolio-col5 .cshero-portfolio-item {
+        width: 20%;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .cshero-portfolio-item {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+/* Blog Portfolio */
+.portfolio-filter { margin-bottom: 70px;}
+.portfolio-filter li{ padding: 0 15px; border-right: 1px solid #eee; cursor: pointer;}
+.portfolio-filter li:first-child,
+.portfolio-filter li:last-child{ border-right: 0;}
+.portfolio-filter li.active span,
+.portfolio-filter li:hover span{ font-weight: 600; color: #333;}
+
+.cs-portfolio-thumbnail{ position: relative;}
+.cs-portfolio-thumbnail img{ width: 100%;}
+.cs-portfolio-thumbnail .overlay a{ font-size: 20px; color: #fff;}
+.cs-portfolio-thumbnail .overlay{ background: rgba(51,51,51,0.9);}
+.cs-portfolio-content-wrap .cs-blog-title-inner{ font-size: 14px; font-weight: 600;}
+/* Portfolio Grid */
+.blog-portfolio-grid .cs-portfolio-content-wrap { margin: 30px 0 65px;}
+.blog-portfolio-grid > .no-container { padding: 0 30px;}
+/* Portfolio Gallery */
+.blog-portfolio-gallery > .no-container { padding: 0 30px;}
+.blog-portfolio-gallery .cs-portfolio-thumbnail{ margin-bottom: 30px;}
+.blog-portfolio-gallery a.portfolio-link { margin-bottom: 30px;}
+.blog-portfolio-gallery .cs-portfolio-content-wrap a{ font-size: 13px;}
+/* Portfolio Gallery 2 */
+.blog-portfolio-gallery2 .cs-portfolio-thumbnail{ margin-bottom: 0;}
+.blog-portfolio-gallery2 .cs_pagination{ margin-top: 30px;}
+
+/* Single Portfolio */
+    .cs-portfolio-wrap{ margin-bottom: 70px;}
+    .cs-portfolio-content { margin-bottom: 50px;}
+    .cs-portfolio-content .cs-blog-title-inner{ font-size: 20px; padding: 0 0 50px 0; margin: 0 0 50px 0; border-bottom: 1px solid #eee;}
+    .cs-portfolio-content .cs-portfolio-title-desc { font-size: 14px; text-transform: uppercase;}
+
+    .cs-portfolio-sidebar > div + div { margin-top: 40px;}
+    .cs-portfolio-sidebar .cs-portfolio-info{ border: 1px solid #eee;}
+    .cs-portfolio-sidebar .cs-portfolio-info .cs-portfolio-info-item { padding: 25px 30px;}
+    .cs-portfolio-sidebar .cs-portfolio-info .cs-portfolio-info-item + .cs-portfolio-info-item{ border-top: 1px solid #eee;}
+    .cs-portfolio-sidebar .cs-portfolio-info .cs-portfolio-info-item h6{ text-transform: uppercase; font-size: 14px;}
+
+    .cs-portfolio-sidebar .cs-portfolio-share h6{ display: inline-block; margin-right: 20px; font-size: 14px; text-transform: uppercase;}
+    .cs-portfolio-sidebar .cs-portfolio-share a{ margin-right: 15px; font-size: 15px;}
+    .cs-portfolio-sidebar .cs-portfolio-share a:last-child{ margin-right: 0;}
+
+    /* Single vertical wide */
+    .single-vertical-wide > .row { margin-bottom: 50px;}
+
+    /* Single Big Slider */
+    .single-big-slider > .row { margin-bottom: 50px;}
+
+    /* Single Gallery */
+    .single-gallery > .row { margin-bottom: 50px;}
+
+    /* Single Video */
+    .single-video > .row { margin-bottom: 50px;}
+
+    /* Navigation */
+    .cshero-portfolio-item-nav{ margin-bottom: 70px; border:1px solid #eee; border-left:0; border-right: 0;}
+    .cshero-portfolio-item-nav > div { padding: 30px 0;}
+    .cshero-portfolio-item-nav .post-navigation{ padding: 0; margin: 0; border:0;}
+
+    /* Gallery Style */
+    .single-post-gallery .single-post-feature-img + div{ margin-top: 20px;}
+    .single-post-gallery .columns-1 .item + .item{ margin-top: 20px;}
+    .single-post-gallery .columns-2,
+    .single-post-gallery .columns-3,
+    .single-post-gallery .columns-4 { margin-left: -30px;} /* item space */
+    .single-post-gallery .columns-2 .item > *,
+    .single-post-gallery .columns-3 .item > *,
+    .single-post-gallery .columns-4 .item > *{ margin: 0 0 30px 30px; display: block;} /* add item space */
+
+    .single-post-gallery .columns-5,
+    .single-post-gallery .columns-6 { margin-left: -20px;} /* item space */
+    .single-post-gallery .columns-5 .item > *,
+    .single-post-gallery .columns-6 .item > *{ margin: 0 0 20px 20px;display: block;} /* add item space */
+
+    .single-post-gallery .columns-7,
+    .single-post-gallery .columns-8,
+    .single-post-gallery .columns-9 { margin-left: -10px;} /* item space */
+    .single-post-gallery .columns-7 .item > *,
+    .single-post-gallery .columns-8 .item > *,
+    .single-post-gallery .columns-9 .item > *{ margin: 0 0 10px 10px;display: block;} /* add item space */
+    .single-post-gallery .carousel-inner { position: relative;}
+    .single-post-gallery .item img{ width: 100%;}
+
+    /* Related Project */
+    .cs-portfolio-related .cs-portfolio-related-title{ font-size: 20px; margin-bottom: 40px;}
+    .cs-portfolio-related .cs-portfolio-thumbnail{ position: relative; margin-bottom: 25px;}
+    .cs-portfolio-related .cs-blog-title-inner{ margin-bottom: 0;}
+
+

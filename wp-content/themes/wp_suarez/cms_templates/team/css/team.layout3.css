@@ -1,0 +1,47 @@
+/* All style for Team Layout 2 */
+.team-layout3{}
+.team-layout3 .cshero-team-carousel-item-wrap:nth-child(4n+1) .cshero-team-carousel-item{border-left: 1px solid #eeeeee;}
+.team-layout3 .cshero-team-carousel-item{border-right: 1px solid #eeeeee;}
+
+.team-layout3 .cshero-team-info-wrap{
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.team-layout3 .cshero-team-title-wrap{
+	margin-bottom: 20px;
+}
+.team-layout3 .cshero-team-title{
+	text-transform: capitalize;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	position: relative;
+}
+.team-layout3 .cshero-team-title:after{
+	position: absolute;
+	bottom: 0;
+	content: "";
+	display: block;
+	width: 50px;
+	height: 3px;
+	background-color: #bbb;
+}
+.team-layout3 .cshero-team-carousel-item.text-right .cshero-team-title:after{
+	left: auto;
+	right: 0;
+}
+.team-layout3 .cshero-team-carousel-item.text-center .cshero-team-title:after{
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+       -moz-transform:translateX(-50%);
+      	-ms-transform:translateX(-50%);
+      	 -o-transform:translateX(-50%);
+          	transform:translateX(-50%);
+}
+.team-layout3 .cshero-team-content .cshero-team-social{ margin-top: 10px;}
+
+.team-layout3 .social-list a {
+	display: inline-block;
+	width: 25px !important;
+	height: 25px !important;
+	line-height: 25px !important;
+}

@@ -1,0 +1,353 @@
+html {
+    /*overflow-x: hidden;*/
+    max-width: 100%;
+    margin: 0 !important;
+}
+body {
+    overflow-x: hidden;
+}
+a, a:hover, a:focus, a:active, a.active {
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition:all 300ms linear 0s;
+       -moz-transition:all 300ms linear 0s;
+        -ms-transition:all 300ms linear 0s;
+         -o-transition:all 300ms linear 0s;
+            transition:all 300ms linear 0s;
+}
+sup {
+    font-size: 10px;
+    vertical-align: super;
+}
+sub {
+    font-size: 10px;
+    vertical-align: sub;
+}
+p:empty {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+embed, iframe, object, video {
+    border: medium none;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{margin:0 0 10px 0; padding: 0; text-transform: uppercase; word-wrap: break-word;}
+
+/* ==========================================================================
+   WP Unit Test
+========================================================================== */
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+}
+th, th a {
+    text-transform: uppercase;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 50px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-family: 'Novecentowide-Bold';
+}
+dl dd {
+    line-height: 26px;
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+}
+pre {
+    border: none;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+         -o-border-radius: 0px;
+            border-radius: 0px;
+    color: inherit;
+    display: block;
+    font-size: inherit;
+    line-height: 26px;
+    margin: 0 0 20px;
+    padding: 20px 35px;
+    overflow: hidden;
+}
+
+
+/** blockquote **/
+blockquote,.cs-blog-quote {
+  border: medium none;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 38px 30px;
+  margin:20px 0;
+}
+blockquote > p{
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 55px;
+  position: relative;
+  text-transform: capitalize;
+}
+blockquote > p:before {
+  content: "“";
+  font-size: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+blockquote > p:after {
+  content: "”";
+  font-size: 100px;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+}
+blockquote > p cite {
+    font-style: italic;
+    display: block;
+}
+blockquote > p cite span {
+    text-transform: none;
+}
+
+/*================== FORM Style ================*/
+form {
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+form:before,
+form:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+form input,
+form select,
+form button,
+form textarea{
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.form-style1 form input,
+form.form-style1 input{ background-color: #f5f5f5; height: 42px !important; line-height: 42px !important;}
+
+
+input[type='text'],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+    outline: none;
+    height: 42px;
+    line-height: 40px;
+    padding: 0 20px;
+    display: inline-block;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+textarea {
+    outline: none;
+    width: 100%;
+    height: 180px;
+    padding: 5px 20px;
+    font-weight: normal;
+    border:1px solid #eee;
+}
+textarea:active,
+textarea:focus {
+}
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+}
+select {
+    font-size: 15px;
+    padding: 5px;
+    height: 37px;
+    line-height: 37px;
+    width: 100%;
+    border:1px solid #eee;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #372f2b;
+    opacity: 1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #372f2b;
+    opacity: 1;
+}
+input::-webkit-placeholder, textarea::-webkit-placeholder {
+    color: #372f2b;
+    opacity: 1;
+}
+input::-o-placeholder, textarea::-o-placeholder {
+    color: #372f2b;
+    opacity: 1;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #372f2b;
+    opacity: 1;
+}
+
+.align-center input,
+.align-center textarea,
+.align-center form *,
+.text-center input,
+.text-center textarea,
+.text-center form *{ text-align: center;}
+
+
+/* Style for FORM in Parallax section 
+    NOTE: you need add extra class name called parallax-form to row or column or shortcode setting 
+*/
+.content-area .parallax-form form,
+.content-area .parallax-form input[type="text"], 
+.content-area .parallax-form input[type="password"], 
+.content-area .parallax-form input[type="datetime"], 
+.content-area .parallax-form input[type="datetime-local"], 
+.content-area .parallax-form input[type="date"], 
+.content-area .parallax-form input[type="month"], 
+.content-area .parallax-form input[type="time"], 
+.content-area .parallax-form input[type="week"], 
+.content-area .parallax-form input[type="number"], 
+.content-area .parallax-form input[type="email"], 
+.content-area .parallax-form input[type="url"], 
+.content-area .parallax-form input[type="search"], 
+.content-area .parallax-form input[type="tel"], 
+.content-area .parallax-form input[type="color"],
+.content-area .parallax-form input[type="submit"],
+.content-area .parallax-form textarea,
+.content-area .parallax-form label,
+.content-area .parallax-form select{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.content-area .parallax-form input[type="submit"]{
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    padding: 7px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 5px 0;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 5px 20px;
+}
+.aligncenter {
+    text-align: center;
+}
+.wp-caption.alignnone {
+    width: 100% !important; 
+}
+/* ==========================================================================
+   End WP Unit Test
+========================================================================== */
+
+/* Reset Bootstrap Style */
+
+/* List style */
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.list-checked{
+  list-style-position: inside;
+  list-style-type: disc;
+}
+ol{
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+@media (min-width: 769px){
+    .nopaddingall { padding: 0 !important;}
+    .nopaddingtop { padding-top: 0 !important;}
+    .nopaddingright { padding-right: 0 !important;}
+    .nopaddingleft { padding-left: 0 !important;}
+    .nopaddingbottom { padding-bottom: 0 !important;}
+}
+
+/* List style */
+.list-inline li:first-child{ padding-left: 0;}
+.list-inline li:last-child{ padding-right: 0;}
+
+.arrow-onepage-bottom { position: absolute; width:100%; z-index: 1; margin-top: -60px; height: 60px;}
+.arrow-onepage-top { position: absolute; width:100%; z-index: 1; margin-top: 60px; height: 60px;}
+
+
+/* Custom class for get font-weight style */
+.font-thin{font-weight: 100;}
+.font-light{ font-weight: 300;}
+.font-normal{}
+.font-semibold{ font-weight: 600;}
+.font-bold{ font-weight: 700;}
+.font-extrabold{ font-weight: 900;}
+
+.font-large{}
+.font-italic{ font-style: italic;}
+
+/* Class Suffix */
+.inline-block{ display: inline-block;} 

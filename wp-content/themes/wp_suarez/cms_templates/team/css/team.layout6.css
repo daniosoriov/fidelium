@@ -1,0 +1,38 @@
+
+
+/* All style for Team Layout 6 */
+.team-layout6{}
+
+.team-layout6 .cshero-team-image .overlay .overlay-content{ text-align: center;}
+
+.team-layout6 .cshero-team-info-wrap{	margin-bottom: 15px;}
+.team-layout6 .cshero-team-info-wrap + *{ margin-top: 10px;}
+.team-layout6 .cshero-team-title{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.team-layout6 .cshero-team-content-wrap {
+    padding: 20px;
+}
+
+
+
+
+/* Social list style */
+.team-layout6 .cshero-team-social { display: inline-block; overflow: hidden; clear: both; background: rgba(17,17,17,1);
+    padding: 5px 15px 0;
+    margin: 0 auto;}
+
+.team-layout6 .cshero-team-social a {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-bottom: 5px;
+}
+.team-layout6 .cshero-team-social a:last-child{
+    margin-right: 0 !important;
+}
